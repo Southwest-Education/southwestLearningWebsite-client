@@ -21,7 +21,7 @@ export default class WhereWeReach extends Component {
   }
 
   componentDidMount() {
-    axios.get('/app/api/map').then((res) => {
+    axios.get('/api/map').then((res) => {
       const data = res.data;
       this.setState({ data: data });
     });

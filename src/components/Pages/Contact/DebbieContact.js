@@ -45,7 +45,7 @@ export default class DebbieContact extends Component {
     e.target.reset();
 
     await axios.post(
-      '/app/api/form/debbie',
+      '/api/form/debbie',
       {
         name,
         streetAddress,

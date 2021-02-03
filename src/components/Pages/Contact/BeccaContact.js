@@ -45,7 +45,7 @@ export default class BeccaContact extends Component {
     e.target.reset();
 
     await axios.post(
-      '/app/api/form/becca',
+      '/api/form/becca',
       {
         name,
         streetAddress,

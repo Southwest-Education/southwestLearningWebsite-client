@@ -45,7 +45,7 @@ export default class KevinContact extends Component {
     e.target.reset();
 
     await axios.post(
-      '/app/api/form/kevin',
+      '/api/form/kevin',
       {
         name,
         streetAddress,

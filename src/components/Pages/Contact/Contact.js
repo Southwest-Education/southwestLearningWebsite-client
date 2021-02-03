@@ -46,7 +46,7 @@ class Contact extends Component {
     e.target.reset();
 
     await axios.post(
-      '/app/api/form',
+      '/api/form',
       {
         name,
         streetAddress,
