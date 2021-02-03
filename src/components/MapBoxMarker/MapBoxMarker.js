@@ -52,7 +52,7 @@ class MapBoxMarker extends Component {
     e.target.reset();
 
     await axios.post(
-      '/api/map',
+      '/app/api/map',
       {
         name,
         streetAddress,
