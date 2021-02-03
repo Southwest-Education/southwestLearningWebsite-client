@@ -1,0 +1,25 @@
+.divOneText {
+  color: #7dc70e;
+  text-align: center;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.divOneText2 {
+  color: #7dc70e;
+  text-align: center;
+  margin: 4% 8%;
+}
+
+.divOneSubHeader {
+  color: #cdcdcd !important;
+  text-align: center;
+  margin-top: 2%;
+  text-decoration: underline;
+}
+
+.symphonyMathVideo {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+}

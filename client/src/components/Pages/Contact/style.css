@@ -1,0 +1,32 @@
+.h1,
+h1 {
+  color: #cdcdcd !important;
+  text-align: center;
+  margin-top: 10%;
+  text-decoration: underline;
+}
+
+#submitBtn {
+  background-color: #7dc70e !important;
+  border-radius: 1.5625rem !important;
+  padding: 0.625rem 3.125rem;
+  color: #232323 !important;
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+Form.Label {
+  text-align: center;
+}
+
+.subHeader {
+  margin-top: 5% !important;
+}
+
+label {
+  font-size: 20px;
+}

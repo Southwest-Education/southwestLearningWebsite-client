@@ -1,0 +1,38 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./DM_Serif_Text/DMSerifText-Regular.ttf);
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: myFirstFont !important;
+  -moz-osx-font-smoothing: grayscale;
+  color: #cdcdcd;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+
+  /* Location of the image */
+  background-image: url('../src//pexels-pixabay-207691.jpg');
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+  z-index: 2;
+}

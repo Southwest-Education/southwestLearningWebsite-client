@@ -1,0 +1,19 @@
+.mainTitle {
+    text-align: center;
+    margin-top: 3.125rem;
+    margin-bottom: 0;
+    font-size: 7rem;
+    background: -webkit-linear-gradient(#690301, #f97c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .mainSubTitle {
+    text-align: center;
+    color: #ededed;
+    font-size: 1.5625rem;
+  }
+
+  hr {
+    background-color: #7dc70e;
+  }

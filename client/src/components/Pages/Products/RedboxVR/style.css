@@ -1,0 +1,10 @@
+.divOneText2 {
+  color: #7dc70e;
+  text-align: center;
+  margin: 1% 14%;
+}
+
+.divOneVR {
+  display: flex;
+  justify-content: center;
+}

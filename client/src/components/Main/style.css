@@ -1,0 +1,82 @@
+.background {
+  background-color: '#232323';
+}
+
+.mainTitle {
+  text-align: center;
+  margin-top: 3.125rem;
+  margin-bottom: 0;
+  font-size: 7rem;
+  background: -webkit-linear-gradient(#690301, #f97c05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainSubTitle {
+  text-align: center;
+  color: #ededed;
+}
+
+.mainParagraph {
+  text-align: center;
+  color: #7dc70e;
+  margin-bottom: 2rem;
+  margin-right: 28rem;
+  margin-left: 28rem;
+}
+
+.threeContainers {
+  color: #7dc70e;
+  display: flex;
+  margin-top: 3.125rem;
+  margin-left: 14rem;
+  margin-right: 14rem;
+  text-align: center;
+}
+
+button {
+  background-color: #7dc70e;
+  border-color: #299cc4 !important;
+  border-radius: 1.5625rem !important;
+  padding: 0.625rem 3.125rem;
+  color: #232323 !important;
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+
+.readingPlusLogo {
+  height: 10.4375rem;
+  width: 25rem;
+  margin-top: 1.875rem;
+}
+
+.symphonyMathLogo {
+  height: 10.375rem;
+  width: 28.125rem;
+}
+
+.redboxVRLogo {
+  height: 11.5rem;
+  width: 27.1875rem;
+  margin-top: -0.1875rem;
+}
+
+.containerOne {
+  margin-top: 1.875rem;
+}
+
+.containerThree {
+  margin-top: 1.875rem;
+}
+
+.containerTwo h1 {
+  margin-top: 1.25rem;
+}
+
+.redboxTitle {
+  margin-top: 0.375rem;
+}
+
+.symphonyMathTitle {
+  margin-top: 1.3125rem;
+}
