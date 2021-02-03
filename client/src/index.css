@@ -13,9 +13,6 @@ body {
   font-size: 1rem;
   line-height: 1;
 
-  /* Location of the image */
-  background-image: url('../src//pexels-pixabay-207691.jpg');
-
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
 
