@@ -14,8 +14,7 @@ export default class WhereWeReach extends Component {
         height: '70vh',
         latitude: 39.8283,
         longitude: -98.5795,
-        zoom: 3.75,
-        style: 'mapbox://styles/shawn220a/ckk73xwfn010117msfolvmiwj'
+        zoom: 3.75
       },
       data: [],
     };
@@ -40,7 +39,6 @@ export default class WhereWeReach extends Component {
           longitude={viewport.longitude}
           zoom={viewport.zoom}
           mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-          mapStyle={viewport.style}
           onViewportChange={(viewport) => {
             this.setState({ viewport });
           }}>
