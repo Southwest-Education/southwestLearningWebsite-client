@@ -38,7 +38,7 @@ export default class WhereWeReach extends Component {
           latitude={viewport.latitude}
           longitude={viewport.longitude}
           zoom={viewport.zoom}
-          mapboxApiAccessToken='pk.eyJ1Ijoic2hhd24yMjBhIiwiYSI6ImNrNnY0MnAycjBnM2UzbnBhNTF3dm8ycm8ifQ.aKQXbriGCk9DpMsks6Cwpw'
+          mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
           mapStyle='mapbox://styles/shawn220a/ckk73xwfn010117msfolvmiwj'
           onViewportChange={(viewport) => {
             this.setState({ viewport });
