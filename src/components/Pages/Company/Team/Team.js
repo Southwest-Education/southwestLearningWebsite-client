@@ -6,12 +6,15 @@ import {
   faEnvelopeOpenText,
   faPhoneVolume,
 } from '@fortawesome/pro-duotone-svg-icons';
+// IMAGES
+import KevinImage from '../../../Images/Team/KevinImage';
 
 const Team = () => {
   const imgSize = {
     width: '100%',
     height: '28.125rem',
   };
+
   return (
     <div>
       <div>
@@ -23,11 +26,7 @@ const Team = () => {
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
             <div className='box'>
               <div className='box-img'>
-                <img
-                  style={imgSize}
-                  src='/assets/images/kevin.png'
-                  alt='kevinSheridan'
-                />
+                <KevinImage />
               </div>
               <div className='box-content'>
                 <h4 className='title'>Kevin Sheridan</h4>
