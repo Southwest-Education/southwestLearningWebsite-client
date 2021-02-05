@@ -8,6 +8,8 @@ import {
 } from '@fortawesome/pro-duotone-svg-icons';
 // IMAGES
 import KevinImage from '../../../Images/Team/KevinImage';
+import BeccaImage from '../../../Images/Team/BeccaImage';
+import DebbieImage from '../../../Images/Team/DebbieImage';
 
 const Team = () => {
   const imgSize = {
@@ -57,11 +59,7 @@ const Team = () => {
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
             <div className='box'>
               <div className='box-img'>
-                <img
-                  style={imgSize}
-                  src='/assets/images/becca.png'
-                  alt='beccaCamarillo'
-                />
+                <BeccaImage />
               </div>
               <div className='box-content'>
                 <h4 className='title'>
@@ -97,11 +95,7 @@ const Team = () => {
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
             <div className='box'>
               <div className='box-img'>
-                <img
-                  style={imgSize}
-                  src='/assets/images/debbie.png'
-                  alt='debbieNetardus'
-                />
+                <DebbieImage />
               </div>
               <div className='box-content'>
                 <h4 className='title'>Debbie Netardus</h4>

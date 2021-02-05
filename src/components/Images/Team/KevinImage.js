@@ -1,11 +1,13 @@
 import React from 'react';
-import './style.css';
-
 
 const KevinImage = () => {
   return (
     <div>
-      <img className='img-fluid imgSize' src='/assets/images/kevin.png' alt='kevinSheridan' />
+      <img
+        className='img-fluid'
+        src='/assets/images/kevin.png'
+        alt='kevinSheridan'
+      />
     </div>
   );
 };
