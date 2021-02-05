@@ -12,11 +12,6 @@ import BeccaImage from '../../../Images/Team/BeccaImage';
 import DebbieImage from '../../../Images/Team/DebbieImage';
 
 const Team = () => {
-  const imgSize = {
-    width: '100%',
-    height: '28.125rem',
-  };
-
   return (
     <div>
       <div>
