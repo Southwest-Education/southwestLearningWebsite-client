@@ -20,9 +20,8 @@
 .mainParagraph {
   text-align: center;
   color: #7dc70e;
-  margin-bottom: 2rem;
-  margin-right: 28rem;
-  margin-left: 28rem;
+  margin: 0 auto;
+  width: 75%;
 }
 
 .threeContainers {
