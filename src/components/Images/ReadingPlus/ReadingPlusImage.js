@@ -4,7 +4,7 @@ const ReadingPlusImage = () => {
   return (
     <div>
       <img
-        className='reading-plus-logo'
+        className='img-fluid reading-plus-logo'
         src='/assets/images/Reading-Plus-Logo.png'
         alt='readingPlusLogo'
       />
