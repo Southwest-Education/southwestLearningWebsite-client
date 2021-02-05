@@ -34,10 +34,9 @@
   transform: rotateY(0);
 }
 
-.box .title {
+.title {
   font-size: 1.75rem;
-  /* color: #fff;
-  text-transform: uppercase; */
+  text-align: center;
   background: -webkit-linear-gradient(#690301, #f97c05);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
