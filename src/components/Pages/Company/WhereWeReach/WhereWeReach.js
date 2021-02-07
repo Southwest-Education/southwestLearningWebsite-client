@@ -43,6 +43,7 @@ export default class WhereWeReach extends Component {
             this.setState({ viewport });
           }}
         >
+          <NavigationControl className="navControlStyle" />
           {data.map((data) =>
             data.geometry.map((coord) => {
               return (

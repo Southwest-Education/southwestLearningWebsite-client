@@ -3,14 +3,14 @@
   top: 10;
 }
 
-.mapboxgl-ctrl-group {
+/* .mapboxgl-ctrl-group {
   display: inline !important;
 }
 
 .mapboxgl-ctrl-icon {
   border-radius: 10px;
   background-color: tomato !important;
-}
+} */
 
 .markerIcon {
   color: blue;
