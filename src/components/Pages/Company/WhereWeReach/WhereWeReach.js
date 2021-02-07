@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './style.css';
+import './style.css';
 import ReactMapGL, { Marker, NavigationControl } from 'react-map-gl';
 import axios from 'axios';
 import { faMapMarkerAlt } from '@fortawesome/pro-solid-svg-icons';
@@ -43,7 +43,6 @@ export default class WhereWeReach extends Component {
             this.setState({ viewport });
           }}
         >
-          <NavigationControl className="navControlStyle" showCompass={true} />
           {data.map((data) =>
             data.geometry.map((coord) => {
               return (
