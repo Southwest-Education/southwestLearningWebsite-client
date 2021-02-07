@@ -14,7 +14,7 @@ export default class WhereWeReach extends Component {
         height: '70vh',
         latitude: 39.8283,
         longitude: -98.5795,
-        zoom: 3.75
+        // zoom: 3.75
       },
       data: [],
     };
@@ -29,7 +29,7 @@ export default class WhereWeReach extends Component {
 
   render() {
     const { viewport, data } = this.state;
- 
+
     return (
       <div>
         <ReactMapGL
@@ -41,8 +41,9 @@ export default class WhereWeReach extends Component {
           mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
           onViewportChange={(viewport) => {
             this.setState({ viewport });
-          }}>
-          <NavigationControl className='navControlStyle' showCompass={true} />
+          }}
+        >
+          <NavigationControl className="navControlStyle" showCompass={true} />
           {data.map((data) =>
             data.geometry.map((coord) => {
               return (
@@ -51,15 +52,16 @@ export default class WhereWeReach extends Component {
                   latitude={coord.lat}
                   longitude={coord.lon}
                   offsetLeft={-24.33}
-                  offsetTop={-26.5}>
+                  offsetTop={-26.5}
+                >
                   <FontAwesomeIcon
-                    className='markerIcon'
-                    size='2x'
+                    className="markerIcon"
+                    size="2x"
                     icon={faMapMarkerAlt}
                   />
                 </Marker>
               );
-            }),
+            })
           )}
         </ReactMapGL>
       </div>
