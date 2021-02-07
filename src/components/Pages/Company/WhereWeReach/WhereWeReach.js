@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css';
+// import './style.css';
 import ReactMapGL, { Marker, NavigationControl } from 'react-map-gl';
 import axios from 'axios';
 import { faMapMarkerAlt } from '@fortawesome/pro-solid-svg-icons';
@@ -14,7 +14,7 @@ export default class WhereWeReach extends Component {
         height: '70vh',
         latitude: 39.8283,
         longitude: -98.5795,
-        // zoom: 3.75
+        zoom: 3.75,
       },
       data: [],
     };
