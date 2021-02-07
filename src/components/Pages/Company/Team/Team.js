@@ -6,31 +6,27 @@ import {
   faEnvelopeOpenText,
   faPhoneVolume,
 } from '@fortawesome/pro-duotone-svg-icons';
+// IMAGES
+import KevinImage from '../../../Images/Team/KevinImage';
+import BeccaImage from '../../../Images/Team/BeccaImage';
+import DebbieImage from '../../../Images/Team/DebbieImage';
 
 const Team = () => {
-  const imgSize = {
-    width: '100%',
-    height: '28.125rem',
-  };
   return (
     <div>
       <div>
-        <h1>Our Sales Team</h1>
+        <h1 className='teamTitle'>Our Sales Team</h1>
       </div>
       <div className='container'>
         <div className='row'>
           {/* KEVIN */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
+          <h4 className='title'>Kevin Sheridan</h4>
             <div className='box'>
               <div className='box-img'>
-                <img
-                  style={imgSize}
-                  src='/assets/images/kevin.png'
-                  alt='kevinSheridan'
-                />
+                <KevinImage />
               </div>
               <div className='box-content'>
-                <h4 className='title'>Kevin Sheridan</h4>
                 <p className='description'>
                   Kevin has enjoyed working with schools throughout Utah and
                   Texas since 2008. He graduated from the University of Utah
@@ -56,19 +52,13 @@ const Team = () => {
           </div>
           {/* BECCA */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
+          <h4 className='title'>Becca Camarillo</h4>
             <div className='box'>
               <div className='box-img'>
-                <img
-                  style={imgSize}
-                  src='/assets/images/becca.png'
-                  alt='beccaCamarillo'
-                />
+                <BeccaImage />
               </div>
               <div className='box-content'>
-                <h4 className='title'>
-                  Becca Camarillo
-                  <br />
-                </h4>
+                
                 <p className='description'>
                   Becca has had the privilege of being a teacher in Texas
                   schools for 13 years. She has taught both primary and
@@ -96,16 +86,13 @@ const Team = () => {
 
           {/* DEBBIE */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
+          <h4 className='title'>Debbie Netardus</h4>
             <div className='box'>
               <div className='box-img'>
-                <img
-                  style={imgSize}
-                  src='/assets/images/debbie.png'
-                  alt='debbieNetardus'
-                />
+                <DebbieImage />
               </div>
               <div className='box-content'>
-                <h4 className='title'>Debbie Netardus</h4>
+                
                 <p className='description'>
                   Debbie Netardus is a retired ELAR teacher from Jourdanton,
                   Texas. She taught at Jourdanton Junior High for 28 years

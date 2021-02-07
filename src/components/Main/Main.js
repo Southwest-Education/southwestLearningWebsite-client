@@ -28,19 +28,19 @@ const Main = () => {
       </div>
       <div className='row threeContainers'>
         {/* SYMPHONY MATH */}
-        <div className='col-4 containerOne'>
+        <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerOne'>
           <DivOne />
           <SymphonyMathBtnRoute />
         </div>
 
         {/* READING PLUS DIV */}
-        <div style={centerLine} className='col-4 containerTwo'>
+        <div style={centerLine} className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerTwo'>
           <DivTwo />
           <ReadingPlusBtnRoute />
         </div>
 
         {/* REDBOXVR */}
-        <div className='col-4 containerThree'>
+        <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerThree'>
           <DivThree />
           <RedBoxVRBtnRoute />
         </div>

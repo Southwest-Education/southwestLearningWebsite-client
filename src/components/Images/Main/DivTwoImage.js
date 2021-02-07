@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 const DivTwoImage = () => {
   return (
     <div>
       <img
-        className='readingPlusLogo'
+        className='img-fluid readingPlusLogo'
         src='/assets/images/readingPlusLogo.png'
         alt='readingPlusLogo'
       />

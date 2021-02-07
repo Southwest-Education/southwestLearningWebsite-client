@@ -16,8 +16,8 @@ const RedboxVR = () => {
       <h3 className='divOneSubHeader'>​About RedboxVR Kits:</h3>
       <DivOneText2 />
       <div className='row'>
-        <div className='col-4 divOneVR'>
-          <RedBoxLogo />
+        <div className='col-4'>
+          <RedBoxLogo className='img-fluid divOneVR'/>
         </div>
 
         <div className='col-4'>
@@ -26,8 +26,8 @@ const RedboxVR = () => {
           </div>
         </div>
 
-        <div className='col-4 divOneVR melLogo'>
-          <MelLogo />
+        <div className='col-4'>
+          <MelLogo className='img-fluid divOneVR melLogo' />
         </div>
       </div>
     </div>

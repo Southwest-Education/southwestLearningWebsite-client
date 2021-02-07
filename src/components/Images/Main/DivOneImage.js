@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 const DivOneImage = () => {
   return (
     <div>
       <img
-        className='symphonyMathLogo'
+        className='img-fluid symphonyMathLogo'
         src='/assets/images/symphonyMath.png'
         alt='symphonyMathLogo'
       />
