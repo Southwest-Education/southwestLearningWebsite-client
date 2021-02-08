@@ -79,7 +79,7 @@ export default class DebbieContact extends Component {
     };
     return (
       <div>
-        <h1>Debbie's Contact Form</h1>
+        <h1 className='contactHeader'>Debbie's Contact Form</h1>
         <Form style={textStyle} variant='bg-light' onSubmit={this.handleSubmit}>
           {/* ROW ONE */}
           <div className='row'>

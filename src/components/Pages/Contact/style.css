@@ -6,6 +6,10 @@ h1 {
   text-decoration: underline;
 }
 
+.contactHeader {
+  margin-top: 1%;
+}
+
 #submitBtn {
   background-color: #7dc70e !important;
   border-radius: 1.5625rem !important;
