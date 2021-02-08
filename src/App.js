@@ -19,40 +19,40 @@ import DebbieContact from './components/Pages/Contact/DebbieContact';
 import Header from './components/Header/Header';
 import MainTitle from './components/MainTitle/MainTitle';
 // MAPBOX MARKER
-import MapBoxMarker from './components/MapBoxMarker/MapBoxMarker'
+import MapBoxMarker from './components/MapBoxMarker/MapBoxMarker';
 
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className="App">
         <Header />
         <MainTitle />
-        <div className='container-fluid'>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/ReadingPlus' component={ReadingPlus} />
-          <Route exact path='/SymphonyMath' component={SymphonyMath} />
-          <Route exact path='/RedboxVR' component={RedboxVR} />
-          <Route exact path='/Roadway2Learning' component={Roadway2Learning} />
-          <Route exact path='/AboutUs' component={AboutUs} />
-          <Route exact path='/Team' component={Team} />
-          <Route exact path='/MapBoxMarker' component={MapBoxMarker} />
+        <div className="container-fluid">
+          <Route exact path="/" component={Home} />
+          <Route exact path="/ReadingPlus" component={ReadingPlus} />
+          <Route exact path="/SymphonyMath" component={SymphonyMath} />
+          <Route exact path="/RedboxVR" component={RedboxVR} />
+          <Route exact path="/Roadway2Learning" component={Roadway2Learning} />
+          <Route exact path="/AboutUs" component={AboutUs} />
+          <Route exact path="/Team" component={Team} />
+          <Route exact path="/MapBoxMarker" component={MapBoxMarker} />
           <Route
             exact
-            path='/kevin@southwestlearning.com'
+            path="/kevin@southwestlearning.com"
             component={KevinContact}
           />
           <Route
             exact
-            path='/becca@southwestlearning.com'
+            path="/becca@southwestlearning.com"
             component={BeccaContact}
           />
           <Route
             exact
-            path='/debbie@southwestlearning.com'
+            path="/debbie@southwestlearning.com"
             component={DebbieContact}
           />
-          <Route exact path='/WhereWeReach' component={WhereWeReach} />
-          <Route exact path='/Contact' component={Contact} />
+          <Route exact path="/WhereWeReach" component={WhereWeReach} />
+          <Route exact path="/Contact" component={Contact} />
         </div>
         {/* <Footer /> */}
       </div>

@@ -1,0 +1,4 @@
+{
+  "prettier.default-config.semi" : "Enable",
+  "prettier.default-config.singleQuote" : "Enable"
+}
