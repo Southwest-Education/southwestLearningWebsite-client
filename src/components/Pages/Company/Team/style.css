@@ -94,6 +94,9 @@
 }
 
 .teamTitle {
+  color: #cdcdcd !important;
+  text-align: center;
+  text-decoration: underline;
   margin-top: 1%;
 }
 
