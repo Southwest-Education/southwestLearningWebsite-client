@@ -1,4 +1,4 @@
-.divOneText2 {
+.divOneText2RedBox {
   color: #7dc70e;
   text-align: center;
   margin: 0 14%;
@@ -7,4 +7,14 @@
 .divOneVR {
   display: flex;
   justify-content: center;
+}
+
+.redboxHeader {
+  margin-top: 0;
+}
+
+.redboxSubHeader {
+  color: #cdcdcd !important;
+  text-align: center;
+  text-decoration: underline;
 }

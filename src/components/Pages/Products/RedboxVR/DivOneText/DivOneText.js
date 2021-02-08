@@ -3,7 +3,6 @@ import React from 'react';
 const DivOneText = () => {
   return (
     <div>
-      <h1>RedboxVR</h1>
       <p className='divOneText'>
         Our kits allow schools to provide filed trips without leaving the
         classrooms.

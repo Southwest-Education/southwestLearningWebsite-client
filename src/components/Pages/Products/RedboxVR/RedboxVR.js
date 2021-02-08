@@ -2,6 +2,10 @@ import React from 'react';
 import './style.css';
 //BUTTONS
 import RedboxVrBtnLearnMore from '../../../Buttons/RedBoxVRButton/RedboxVrBtnLearnMore';
+// HEADER 
+import Header from './Header/Header';
+// SUBHEADER
+import SubHeader from './SubHeader/SubHeader';
 //DIVS
 import DivOneText from './DivOneText/DivOneText';
 import DivOneText2 from './DivOneText2/DivOneText2';
@@ -12,8 +16,9 @@ import MelLogo from '../../../Images/RedBox/MelLogo';
 const RedboxVR = () => {
   return (
     <div>
+      <Header />
       <DivOneText />
-      <h3 className='divOneSubHeader'>​About RedboxVR Kits:</h3>
+      <SubHeader />
       <DivOneText2 />
       <div className='row'>
         <div className='col-4'>

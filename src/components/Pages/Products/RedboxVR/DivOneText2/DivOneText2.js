@@ -3,7 +3,7 @@ import React from 'react';
 const DivOneText2 = () => {
   return (
     <div>
-      <p className='divOneText2'>
+      <p className='divOneText2RedBox'>
         The RedboxVR ‘student devices’ are set up to run Google Expeditions,
         although they are compatible with other VR (virtual reality) or AR
         (augmented reality) Play Store apps. In addition to Google Expeditions,
