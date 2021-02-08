@@ -4,7 +4,7 @@ import './style.css';
 const AboutUs = () => {
   return (
     <div>
-      <h1>Company History:</h1>
+      <h1 className='aboutUsHeader'>Company History:</h1>
       <p className='aboutUsParagraph'>
         Southwest Education Inc., a Texas-based company, started serving schools
         in 1999. Becky Moore Rodriguez, a former Texas DHS Supervisor and
