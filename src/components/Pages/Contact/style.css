@@ -1,13 +1,8 @@
-.h1,
-h1 {
+.contactHeader{
   color: #cdcdcd !important;
   text-align: center;
-  margin-top: 10%;
-  text-decoration: underline;
-}
-
-.contactHeader {
   margin-top: 1%;
+  text-decoration: underline;
 }
 
 #submitBtn {

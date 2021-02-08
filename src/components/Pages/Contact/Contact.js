@@ -87,7 +87,7 @@ class Contact extends Component {
         <div className='row'>
           {/* LEFT SIDE */}
           <div style={centerLine} className='col-6'>
-            <h1>Contact For More Information</h1>
+            <h1 className='contactHeader'>Contact For More Information</h1>
             <Form
               style={textStyle}
               variant='bg-light'
@@ -236,7 +236,7 @@ class Contact extends Component {
 
           {/* RIGHT SIDE */}
           <div className='col-6'>
-            <h1>Address:</h1>
+            <h1 className='contactHeader'>Address:</h1>
             <a href='https://www.google.com/maps/place/1614+US-281,+Marble+Falls,+TX+78654/@30.5872286,-98.2759144,17z/data=!3m1!4b1!4m5!3m4!1s0x865b1d0285ae51ef:0x905c3a738fb8eed9!8m2!3d30.5872286!4d-98.2737257'>
               <h3 hr style={textStyle}>
                 1614 US-281 Suite B, Marble Falls, TX 78654
