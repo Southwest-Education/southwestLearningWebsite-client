@@ -24,6 +24,9 @@ Form.Label {
 
 .subHeader {
   margin-top: 5% !important;
+  color: #cdcdcd !important;
+  text-align: center;
+  text-decoration: underline;
 }
 
 label {
