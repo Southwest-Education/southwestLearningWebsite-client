@@ -10,11 +10,14 @@
   margin-top: 1%;
 }
 
-.howItWorksDiv h1 {
+.howItWorksHeader {
+  color: #cdcdcd !important;
+  text-align: center;
+  text-decoration: underline;
   margin-top: 0.5%;
 }
 
-.howItWorksDiv p {
+.howItWorksParagraph {
   color: #7dc70e;
   text-align: center;
   width: 50%;
