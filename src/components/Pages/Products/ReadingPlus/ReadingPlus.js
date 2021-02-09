@@ -3,7 +3,7 @@ import './style.css';
 
 // BUTTONS
 import ReadingPlusBtnLogin from '../../../Buttons/ReadingPlusButton/ReadingPlusBtnLogin';
-import ReadingPlusBtnLearnMore from '../../../Buttons/ReadingPlusButton/ReadingPlusBtnLearnMore';
+import ContactButton from '../../../Buttons/ContactButton/ContactButton';
 // DIVS
 import ReadingPlusVideoDiv from './ReadingPlusVideoDiv/ReadingPlusVideoDiv';
 import HowItWorksDiv from './HowItWorksDiv/HowItWorksDiv';
@@ -22,8 +22,8 @@ const ReadingPlus = () => {
         <HowItWorksDiv />
       </div>
       <div className='btnDiv'>
-        <ReadingPlusBtnLearnMore />
         <ReadingPlusBtnLogin />
+        <ContactButton />
       </div>
     </div>
   );
