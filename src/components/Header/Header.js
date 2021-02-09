@@ -42,6 +42,9 @@ class Header extends Component {
                   <Dropdown.Item className='DropdownItems' href='/RedboxVR'>
                     RedboxVR
                   </Dropdown.Item>
+                  <Dropdown.Item className='DropdownItems' href='/Testimonials'>
+                    Testimonials
+                  </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
               <Dropdown>
