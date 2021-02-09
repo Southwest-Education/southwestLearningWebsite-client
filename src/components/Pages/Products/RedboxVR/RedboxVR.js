@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 //BUTTONS
 import RedboxVrBtnLearnMore from '../../../Buttons/RedBoxVRButton/RedboxVrBtnLearnMore';
+import ContactButton from '../../../Buttons/ContactButton/ContactButton';
 // HEADER 
 import Header from './Header/Header';
 // SUBHEADER
@@ -28,6 +29,7 @@ const RedboxVR = () => {
         <div className='col-4'>
           <div className='btnDiv'>
             <RedboxVrBtnLearnMore />
+            <ContactButton />
           </div>
         </div>
 
