@@ -13,6 +13,7 @@ import SubHeader2 from './DivSubHeader/SubHeader2';
 // DIVS
 import DivOneText from './DivOneText/DivOneText';
 import DivOneText2 from './DivOneText2/DivOneText2';
+import ContactButton from '../../../Buttons/ContactButton/ContactButton';
 
 const SymphonyMath = () => {
   const centerLine = {
@@ -30,8 +31,8 @@ const SymphonyMath = () => {
             <DivOneText2 />
             {/* BUTTONS */}
             <div className='btnDiv'>
-              <SymphonyMathBtnLearnMore />
               <SymphonyMathBtnLogin />
+              <ContactButton />
             </div>
           </div>
           <div className='col-6'>
