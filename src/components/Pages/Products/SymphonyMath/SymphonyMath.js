@@ -1,9 +1,7 @@
 import React from 'react';
 import './style.css';
 import VideoLooper from 'react-video-looper';
-
 // BUTTONS
-import SymphonyMathBtnLearnMore from '../../../Buttons/SymphonyMath/SymphonyMathBtnLearnMore';
 import SymphonyMathBtnLogin from '../../../Buttons/SymphonyMath/SymphonyMathBtnLogin';
 // HEADER
 import Header from './Header/Header';
