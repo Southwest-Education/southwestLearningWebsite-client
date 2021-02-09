@@ -6,6 +6,7 @@ import ReadingPlus from './components/Pages/Products/ReadingPlus/ReadingPlus';
 import RedboxVR from './components/Pages/Products/RedboxVR/RedboxVR';
 import Roadway2Learning from './components/Pages/Products/Roadway2Learning/Roadway2Learning';
 import SymphonyMath from './components/Pages/Products/SymphonyMath/SymphonyMath';
+import Testimonials from './components/Pages/Products/Testimonials/Testimonials';
 // COMPANY
 import AboutUs from './components/Pages/Company/AboutUs/AboutUs';
 import Team from './components/Pages/Company/Team/Team';
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/SymphonyMath" component={SymphonyMath} />
           <Route exact path="/RedboxVR" component={RedboxVR} />
           <Route exact path="/Roadway2Learning" component={Roadway2Learning} />
+          <Route exact path="/Testimonials" component={Testimonials} />
           <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Team" component={Team} />
           <Route exact path="/MapBoxMarker" component={MapBoxMarker} />
