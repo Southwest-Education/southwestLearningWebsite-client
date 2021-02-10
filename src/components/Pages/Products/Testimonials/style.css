@@ -1,0 +1,32 @@
+.testimonialsTitle {
+    color: #cdcdcd !important;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.testimonialsSubTitle {
+    color: #cdcdcd !important;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+.ReadingPlusParagraph{
+    text-align: center;
+    color: #7dc70e;
+    margin: 2% auto;
+    width: 75%;
+}
+
+.testimonialPerson {
+    text-align: center;
+    text-decoration: underline;
+    color: #f97c05;
+    margin: 2% auto;
+    width: 75%;
+    font-weight: bolder;
+    font-size: 20px;
+}
