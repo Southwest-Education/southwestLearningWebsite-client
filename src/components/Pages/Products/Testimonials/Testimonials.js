@@ -1,10 +1,14 @@
 import React from 'react';
+import './style.css';
+// PARAGRAPHS
 import ReadingPlusParagraphOne from './Paragraph/ReadingPlusParagraph/ReadingPlusParagraphOne';
 import ReadingPlusParagraphTwo from './Paragraph/ReadingPlusParagraph/ReadingPlusParagraphTwo';
-import './style.css';
+// VIDEOS
 import ReadingPlusTestimonialOne from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialOne';
 import ReadingPlusTestimonialTwo from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialTwo';
 import SymphonyMathTestimonialOne from './Videos/SymphonyMathTestimonial/SymphonyMathTestimonialOne';
+import SymphonyMathTestimonialTwo from './Videos/SymphonyMathTestimonial/SymphonyMathTestimonialTwo';
+
 
 const Testimonials = () => {
 
@@ -41,7 +45,7 @@ const Testimonials = () => {
           <ReadingPlusParagraphOne />
         </div>
         <div className='col-6'>
-          <ReadingPlusTestimonialTwo />
+          <SymphonyMathTestimonialTwo />
           <ReadingPlusParagraphTwo />
         </div>
       </div>
