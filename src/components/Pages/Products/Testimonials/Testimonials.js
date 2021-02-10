@@ -6,7 +6,7 @@ import ReadingPlusTestimonialOne from './Videos/ReadingPlusTestimonial/ReadingPl
 import ReadingPlusTestimonialTwo from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialTwo';
 const Testimonials = () => {
   return (
-    <div>
+    <div className='container' >
       <div className='row'>
           <div className="col-12">
               <h1 className='testimonialsTitle'>Testimonials</h1>
@@ -15,7 +15,7 @@ const Testimonials = () => {
               <h3 className='testimonialsSubTitle'>Reading Plus</h3>
           </div>
         <div className='col-6'>
-          <ReadingPlusTestimonialOne />
+          <ReadingPlusTestimonialOne className='readingPlusVideoOne' />
           <ReadingPlusParagraphOne />
         </div>
         <div className='col-6'>

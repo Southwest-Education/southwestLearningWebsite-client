@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 const ReadingPlusTestimonialOne = () => {
   return (
     <div>
-      <ReactPlayer url="https://youtu.be/abpYxkwjP9w" />
+      <ReactPlayer className='readingPlusvideoOne' url="https://youtu.be/abpYxkwjP9w" />
     </div>
   );
 };
