@@ -6,6 +6,7 @@ const ReadingPlusTestimonialTwo = () => {
   return (
     <div>
       <ReactPlayer
+        controls={true}
         width='550px'
         height='350px'
         url='https://youtu.be/MinU9D2Mz1U'
