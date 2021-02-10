@@ -1,5 +1,5 @@
 .testimonialsTitle {
-    color: #cdcdcd !important;
+    color: #299cc4 !important;
     text-align: center;
     text-decoration: underline;
     margin-top: 0.5%;
@@ -29,4 +29,8 @@
     width: 75%;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.testimonial {
+    background-color: #299cc4 !important;
 }
