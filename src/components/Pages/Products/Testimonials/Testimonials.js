@@ -3,6 +3,8 @@ import './style.css';
 // PARAGRAPHS
 import ReadingPlusParagraphOne from './Paragraph/ReadingPlusParagraph/ReadingPlusParagraphOne';
 import ReadingPlusParagraphTwo from './Paragraph/ReadingPlusParagraph/ReadingPlusParagraphTwo';
+
+import SymponyMathParagraphOne from './Paragraph/SymponyMathParagraph/SymponyMathParagraphOne';
 // VIDEOS
 import ReadingPlusTestimonialOne from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialOne';
 import ReadingPlusTestimonialTwo from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialTwo';
@@ -42,7 +44,7 @@ const Testimonials = () => {
           </div>
         <div className='col-6'>
           <SymphonyMathTestimonialOne/>
-          <ReadingPlusParagraphOne />
+          <SymponyMathParagraphOne />
         </div>
         <div className='col-6'>
           <SymphonyMathTestimonialTwo />
