@@ -9,7 +9,7 @@ const SymphonyMathTestimonialOne = () => {
         controls={true}
         width='550px'
         height='350px'
-        url='https://vimeo.com/254023216'
+        url='https://vimeo.com/55886592'
       />
     </div>
   );

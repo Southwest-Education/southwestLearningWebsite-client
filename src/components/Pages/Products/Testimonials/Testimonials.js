@@ -34,15 +34,13 @@ const Testimonials = () => {
           <ReadingPlusTestimonialTwo />
           <ReadingPlusParagraphTwo />
         </div>
+        <hr className='container testimonial' />
       </div>
 
       <div className='row'>
           {/* SYMPHONY MATH */}
           <div className="col-12">
-              <h1 className='testimonialsTitle'>Testimonials</h1>
-          </div>
-          <div className="col-12">
-              <h3 className='testimonialsSubTitle'>Reading Plus</h3>
+              <h3 className='testimonialsSubTitle'>Symphony Math</h3>
           </div>
         <div className='col-6'>
           <SymphonyMathTestimonialOne/>
@@ -53,6 +51,7 @@ const Testimonials = () => {
           <SymponyMathParagraphTwo />
         </div>
       </div>
+      <hr className='container testimonial' />
     </div>
   );
 };
