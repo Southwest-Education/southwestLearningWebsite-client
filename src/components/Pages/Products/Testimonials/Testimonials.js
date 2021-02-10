@@ -5,6 +5,8 @@ import ReadingPlusParagraphOne from './Paragraph/ReadingPlusParagraph/ReadingPlu
 import ReadingPlusParagraphTwo from './Paragraph/ReadingPlusParagraph/ReadingPlusParagraphTwo';
 
 import SymponyMathParagraphOne from './Paragraph/SymponyMathParagraph/SymponyMathParagraphOne';
+import SymponyMathParagraphTwo  from './Paragraph/SymponyMathParagraph/SymponyMathParagraphTwo';
+
 // VIDEOS
 import ReadingPlusTestimonialOne from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialOne';
 import ReadingPlusTestimonialTwo from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialTwo';
@@ -48,7 +50,7 @@ const Testimonials = () => {
         </div>
         <div className='col-6'>
           <SymphonyMathTestimonialTwo />
-          <ReadingPlusParagraphTwo />
+          <SymponyMathParagraphTwo />
         </div>
       </div>
     </div>
