@@ -1,13 +1,17 @@
 import React from 'react';
 import './style.css';
-import ReactPlayer from "react-player";
+import ReactPlayer from 'react-player';
 
 const ReadingPlusTestimonialTwo = () => {
-    return (
-        <div>
-            <ReactPlayer width='550px' height='350px'  url='https://youtu.be/MinU9D2Mz1U'/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <ReactPlayer
+        width='550px'
+        height='350px'
+        url='https://youtu.be/MinU9D2Mz1U'
+      />
+    </div>
+  );
+};
 
-export default ReadingPlusTestimonialTwo
+export default ReadingPlusTestimonialTwo;
