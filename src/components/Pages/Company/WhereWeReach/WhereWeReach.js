@@ -70,6 +70,7 @@ export default class WhereWeReach extends Component {
             })
           )}
         </ReactMapGL>
+        <hr className="whereWeReach" />
       </div>
     );
   }
