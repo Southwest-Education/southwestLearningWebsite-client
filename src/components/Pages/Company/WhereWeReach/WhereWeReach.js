@@ -15,8 +15,8 @@ export default class WhereWeReach extends Component {
     super(props);
     this.state = {
       viewport: {
-        width: '100vw',
-        height: '70vh',
+        width: '58vw',
+        height: '65vh',
         latitude: 39.8283,
         longitude: -98.5795,
         zoom: 3.75,
@@ -36,7 +36,7 @@ export default class WhereWeReach extends Component {
     const { viewport, data } = this.state;
 
     return (
-      <div>
+      <div className="container">
         <ReactMapGL
           width={viewport.width}
           height={viewport.height}
@@ -44,7 +44,7 @@ export default class WhereWeReach extends Component {
           longitude={viewport.longitude}
           zoom={viewport.zoom}
           mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-          mapStyle="mapbox://styles/shawn220a/ckk73xwfn010117msfolvmiwj"
+          mapStyle={process.env.REACT_APP_MAPBOX_STYLE}
           onViewportChange={(viewport) => {
             this.setState({ viewport });
           }}
