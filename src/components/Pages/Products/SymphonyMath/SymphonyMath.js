@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import VideoLooper from 'react-video-looper';
+import ReactPlayer from 'react-player';
 // BUTTONS
 import SymphonyMathBtnLogin from '../../../Buttons/SymphonyMath/SymphonyMathBtnLogin';
 // HEADER
@@ -36,14 +36,11 @@ const SymphonyMath = () => {
           <div className='col-6'>
             <SubHeader2 />
             <div className='symphonyMathVideo'>
-              <VideoLooper
-                source='/assets/videos/symphonyMathOverview.mp4'
-                autoplay={false}
+              <ReactPlayer
+                url='https://youtu.be/24WOuguyUlc'
+                controls={true}
                 width='67%'
                 height='35vh'
-                start={0.0}
-                end={205.0}
-                muted={false}
               />
             </div>
           </div>

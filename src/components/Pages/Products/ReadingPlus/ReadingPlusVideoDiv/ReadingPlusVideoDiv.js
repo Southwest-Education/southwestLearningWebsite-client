@@ -1,16 +1,14 @@
 import React from 'react';
-import VideoLooper from 'react-video-looper';
+import ReactPlayer from 'react-player';
 
 const ReadingPlusVideoDiv = () => {
   return (
     <div>
-      <VideoLooper
-        source='/assets/videos/readingPlusVideo.mov'
-        autoplay={true}
+      <ReactPlayer
+        url='https://youtu.be/44PiVDPtW7A'
+        controls={true}
         width='67%'
         height='50vh'
-        start={0.0}
-        end={59.0}
       />
     </div>
   );
