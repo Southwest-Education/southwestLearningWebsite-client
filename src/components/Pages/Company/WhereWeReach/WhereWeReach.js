@@ -15,7 +15,7 @@ export default class WhereWeReach extends Component {
     super(props);
     this.state = {
       viewport: {
-        width: '58vw',
+        width: '100%',
         height: '65vh',
         latitude: 39.8283,
         longitude: -98.5795,
