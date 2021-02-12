@@ -27,7 +27,6 @@
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "react-video-looper": "^1.0.16",
     "web-vitals": "^0.2.4",
     "worker-loader": "^3.0.7"
   },
