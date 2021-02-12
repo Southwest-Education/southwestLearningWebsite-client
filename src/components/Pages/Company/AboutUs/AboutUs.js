@@ -9,10 +9,25 @@ const AboutUs = () => {
   return (
     <div>
       <h1 className='aboutUsHeader'>Company History:</h1>
-      <ParagraphOne />
-      <ParagraphTwo />
-      <ParagraphThree />
-      <ParagraphFour />
+      
+      <div className='row'>
+        <div className='col-6'>
+          <ParagraphOne />
+        </div>
+        <div className='col-6'>
+          <ParagraphThree />
+        </div>
+      </div>
+
+      <div className='row'>
+        <div className='col-6'>
+          <ParagraphTwo />
+        </div>
+        <div className='col-6'>
+          <ParagraphFour />
+        </div>
+      </div>
+
       <hr className='container testimonial' />
     </div>
   );
