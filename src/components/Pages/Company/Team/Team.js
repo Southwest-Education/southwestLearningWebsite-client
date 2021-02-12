@@ -120,6 +120,7 @@ const Team = () => {
           </div>
         </div>
       </div>
+      <hr className='container testimonial' />
     </div>
   );
 };
