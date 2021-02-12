@@ -30,6 +30,7 @@ const AboutUs = () => {
         Southwest Education Inc is a growing company and has consultants,
         trainers and representatives across the country.
       </p>
+      <hr className='container testimonial' />
     </div>
   );
 };

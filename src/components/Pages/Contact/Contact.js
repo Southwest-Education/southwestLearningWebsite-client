@@ -265,6 +265,7 @@ class Contact extends Component {
             </ul>
           </div>
         </div>
+        <hr className='container testimonial' />
       </div>
     );
   }

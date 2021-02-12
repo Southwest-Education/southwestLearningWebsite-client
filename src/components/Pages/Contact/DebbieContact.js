@@ -218,6 +218,7 @@ export default class DebbieContact extends Component {
             Submit
           </Button>
         </Form>
+        <hr className='container testimonial' />
       </div>
     );
   }

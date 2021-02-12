@@ -218,6 +218,7 @@ export default class BeccaContact extends Component {
             Submit
           </Button>
         </Form>
+        <hr className='container testimonial' />
       </div>
     );
   }

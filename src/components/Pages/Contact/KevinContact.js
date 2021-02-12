@@ -218,6 +218,7 @@ export default class KevinContact extends Component {
             Submit
           </Button>
         </Form>
+        <hr className='container testimonial' />
       </div>
     );
   }

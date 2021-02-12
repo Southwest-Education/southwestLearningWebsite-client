@@ -46,6 +46,7 @@ const SymphonyMath = () => {
           </div>
         </div>
       </div>
+      <hr className='container testimonial' />
     </div>
   );
 };
