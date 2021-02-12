@@ -37,6 +37,7 @@ const RedboxVR = () => {
           <MelLogo className='img-fluid divOneVR melLogo' />
         </div>
       </div>
+      <hr className='container testimonial' />
     </div>
   );
 };

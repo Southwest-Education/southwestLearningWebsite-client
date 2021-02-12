@@ -25,6 +25,7 @@ const ReadingPlus = () => {
         <ReadingPlusBtnLogin />
         <ContactButton />
       </div>
+      <hr className='container testimonial' />
     </div>
   );
 };
