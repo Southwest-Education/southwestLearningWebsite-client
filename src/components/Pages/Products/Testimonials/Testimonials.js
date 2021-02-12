@@ -7,11 +7,20 @@ import ReadingPlusParagraphTwo from './Paragraph/ReadingPlusParagraph/ReadingPlu
 import SymponyMathParagraphOne from './Paragraph/SymponyMathParagraph/SymponyMathParagraphOne';
 import SymponyMathParagraphTwo  from './Paragraph/SymponyMathParagraph/SymponyMathParagraphTwo';
 
+import RedboxVRParagraphOne from './Paragraph/RedboxVRParagraph/RedboxVRParagraphOne';
+import RedboxVRParagraphTwo from './Paragraph/RedboxVRParagraph/RedboxVRParagraphTwo';
+
 // VIDEOS
 import ReadingPlusTestimonialOne from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialOne';
 import ReadingPlusTestimonialTwo from './Videos/ReadingPlusTestimonial/ReadingPlusTestimonialTwo';
+
 import SymphonyMathTestimonialOne from './Videos/SymphonyMathTestimonial/SymphonyMathTestimonialOne';
 import SymphonyMathTestimonialTwo from './Videos/SymphonyMathTestimonial/SymphonyMathTestimonialTwo';
+
+import RedboxVRTestimonialOne from './Videos/RedboxVRTestimonial/RedboxVRTestimonialOne';
+import RedboxVRTestimonialTwo from './Videos/RedboxVRTestimonial/RedboxVRTestimonialTwo';
+
+
 
 
 const Testimonials = () => {
@@ -52,7 +61,26 @@ const Testimonials = () => {
         </div>
       </div>
       <hr className='container testimonial' />
+
+
+      <div className='row'>
+          {/* RedboxVR */}
+          <div className="col-12">
+              <h3 className='testimonialsSubTitle'>Redbox VR</h3>
+          </div>
+        <div className='col-6'>
+          <RedboxVRTestimonialOne/>
+          <RedboxVRParagraphOne />
+        </div>
+        <div className='col-6'>
+          <RedboxVRTestimonialTwo />
+          <RedboxVRParagraphTwo />
+        </div>
+      </div>
+      <hr className='container testimonial' />
     </div>
+
+    
   );
 };
 
