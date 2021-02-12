@@ -1,10 +1,8 @@
 .aboutUsParagraph {
   text-align: center;
-  color: #7dc70e;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  margin-right: 28rem;
-  margin-left: 28rem;
+  color: hsl(84, 87%, 42%);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .aboutUsHeader {
