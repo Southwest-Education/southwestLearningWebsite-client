@@ -21,7 +21,7 @@ const Team = () => {
         <div className='row'>
           {/* KEVIN */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
-          <h4 className='title'>Kevin Sheridan</h4>
+            <h4 className='title'>Kevin Sheridan</h4>
             <div className='box'>
               <div className='box-img'>
                 <KevinImage />
@@ -52,13 +52,12 @@ const Team = () => {
           </div>
           {/* BECCA */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
-          <h4 className='title'>Becca Camarillo</h4>
+            <h4 className='title'>Becca Camarillo</h4>
             <div className='box'>
               <div className='box-img'>
                 <BeccaImage />
               </div>
               <div className='box-content'>
-                
                 <p className='description'>
                   Becca has had the privilege of being a teacher in Texas
                   schools for 13 years. She has taught both primary and
@@ -86,13 +85,12 @@ const Team = () => {
 
           {/* DEBBIE */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
-          <h4 className='title'>Debbie Netardus</h4>
+            <h4 className='title'>Debbie Netardus</h4>
             <div className='box'>
               <div className='box-img'>
                 <DebbieImage />
               </div>
               <div className='box-content'>
-                
                 <p className='description'>
                   Debbie Netardus is a retired ELAR teacher from Jourdanton,
                   Texas. She taught at Jourdanton Junior High for 28 years
