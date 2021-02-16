@@ -1,16 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 
-const sentMesage = () => {
+const SentMesage = () => {
   return (
     <div>
-      <Card style={{ width: '18rem' }}>
+      <Card className='text-center'>
+        <Card.Header>Featured</Card.Header>
         <Card.Body>
-          <Card.Title>Message Sent</Card.Title>
+          <Card.Title>Special title treatment</Card.Title>
+          <Card.Text>
+            With supporting text below as a natural lead-in to additional
+            content.
+          </Card.Text>
+          <Link to='/'>
+            <button variant='primary'>Go Home</button>
+          </Link>
         </Card.Body>
+        <Card.Footer className='text-muted'>2 days ago</Card.Footer>
       </Card>
     </div>
   );
 };
 
-export default sentMesage;
+export default SentMesage;

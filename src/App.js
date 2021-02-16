@@ -21,6 +21,9 @@ import Header from './components/Header/Header';
 import MainTitle from './components/MainTitle/MainTitle';
 // MAPBOX MARKER
 import MapBoxMarker from './components/MapBoxMarker/MapBoxMarker';
+// SENT MESSAGE
+import SentMessage from './components/SentMessage/SentMesage';
+
 
 function App() {
   return (
@@ -38,6 +41,8 @@ function App() {
           <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Team" component={Team} />
           <Route exact path="/MapBoxMarker" component={MapBoxMarker} />
+          <Route exact path="/SentMessage" component={SentMessage} />
+
           <Route
             exact
             path="/kevin@southwestlearning.com"
