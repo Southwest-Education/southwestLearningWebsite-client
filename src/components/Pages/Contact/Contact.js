@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 import './style.css';
 
@@ -64,8 +65,6 @@ class Contact extends Component {
         },
       }
     );
-
-    window.location.replace('/SentMessage');
   };
 
   render() {
@@ -232,6 +231,7 @@ class Contact extends Component {
 
               <Button id="submitBtn" variant="primary" type="submit">
                 Submit
+                <Redirect to="/SentMessage" />
               </Button>
             </Form>
           </div>
