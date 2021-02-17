@@ -110,26 +110,28 @@ const Contact = () => {
               <div className="col-6">
                 {/* PHONE */}
                 <Form.Group>
-                  <Form.Label htmlFor="phone">Phone</Form.Label>
+                  <Form.Label>Phone</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="phone"
-                    onChange={this.handleChange}
+                    value={phone}
                     placeholder="enter phone number here"
+                    required
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                 </Form.Group>
               </div>
               <div className="col-6">
                 {/* CITY */}
                 <Form.Group>
-                  <Form.Label htmlFor="city">City</Form.Label>
+                  <Form.Label>City</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="city"
-                    onChange={this.handleChange}
+                    value={city}
                     placeholder="enter city here"
+                    required
+                    onChange={(e) => setCity(e.target.value)}
                   />
                 </Form.Group>
               </div>
