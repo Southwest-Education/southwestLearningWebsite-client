@@ -172,28 +172,30 @@ const Contact = () => {
             {/* ROW FOUR */}
             <div className="row">
               <div className="col-6">
-                {/* ZIP CODE */}
+                {/* ROLE */}
                 <Form.Group>
-                  <Form.Label htmlFor="zipCode">Zip Code</Form.Label>
+                  <Form.Label>Role</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="zipCode"
-                    onChange={this.handleChange}
-                    placeholder="enter zip code here"
+                    value={role}
+                    placeholder="enter role here"
+                    required
+                    onChange={(e) => setRole(e.target.value)}
                   />
                 </Form.Group>
               </div>
               <div className="col-6">
-                {/* ROLE */}
+                {/* ZIP CODE */}
                 <Form.Group>
-                  <Form.Label htmlFor="role">Role</Form.Label>
+                  <Form.Label>Zip Code</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="role"
-                    onChange={this.handleChange}
-                    placeholder="enter role here"
+                    value={zipCode}
+                    placeholder="enter zip code here"
+                    required
+                    onChange={(e) => setZipCode(e.target.value)}
                   />
                 </Form.Group>
               </div>
@@ -201,14 +203,15 @@ const Contact = () => {
 
             {/* MESSAGE */}
             <Form.Group>
-              <Form.Label htmlFor="message">Message</Form.Label>
+              <Form.Label>Message</Form.Label>
               <Form.Control
                 style={input}
-                as="textarea"
+                type="textarea"
                 rows={3}
-                name="message"
-                onChange={this.handleChange}
+                value={message}
                 placeholder="enter your message here"
+                required
+                onChange={(e) => setMessage(e.target.value)}
               />
             </Form.Group>
 
