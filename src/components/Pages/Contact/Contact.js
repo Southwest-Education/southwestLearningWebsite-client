@@ -64,6 +64,8 @@ class Contact extends Component {
         },
       }
     );
+
+    window.open('/SentMessage');
   };
 
   render() {
@@ -84,41 +86,41 @@ class Contact extends Component {
     };
     return (
       <div>
-        <div className='row'>
+        <div className="row">
           {/* LEFT SIDE */}
-          <div style={centerLine} className='col-6'>
-            <h1 className='contactHeader'>Contact For More Information</h1>
+          <div style={centerLine} className="col-6">
+            <h1 className="contactHeader">Contact For More Information</h1>
             <Form
               style={textStyle}
-              variant='bg-light'
+              variant="bg-light"
               onSubmit={this.handleSubmit}
             >
               {/* ROW ONE */}
-              <div className='row'>
-                <div className='col-6'>
+              <div className="row">
+                <div className="col-6">
                   <Form.Group>
-                    <Form.Label htmlFor='name'>Name</Form.Label>
+                    <Form.Label htmlFor="name">Name</Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='name'
+                      type="text"
+                      name="name"
                       onChange={this.handleChange}
-                      placeholder='enter name here'
+                      placeholder="enter name here"
                     />
                   </Form.Group>
                 </div>
-                <div className='col-6'>
+                <div className="col-6">
                   {/* STREET ADDRESS */}
                   <Form.Group>
-                    <Form.Label htmlFor='streetAddress'>
+                    <Form.Label htmlFor="streetAddress">
                       Street Address
                     </Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='streetAddress'
+                      type="text"
+                      name="streetAddress"
                       onChange={this.handleChange}
-                      placeholder='enter street address here'
+                      placeholder="enter street address here"
                     />
                   </Form.Group>
                 </div>
@@ -126,90 +128,90 @@ class Contact extends Component {
               </div>
 
               {/* ROW TW0 */}
-              <div className='row'>
-                <div className='col-6'>
+              <div className="row">
+                <div className="col-6">
                   {/* PHONE */}
                   <Form.Group>
-                    <Form.Label htmlFor='phone'>Phone</Form.Label>
+                    <Form.Label htmlFor="phone">Phone</Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='phone'
+                      type="text"
+                      name="phone"
                       onChange={this.handleChange}
-                      placeholder='enter phone number here'
+                      placeholder="enter phone number here"
                     />
                   </Form.Group>
                 </div>
-                <div className='col-6'>
+                <div className="col-6">
                   {/* CITY */}
                   <Form.Group>
-                    <Form.Label htmlFor='city'>City</Form.Label>
+                    <Form.Label htmlFor="city">City</Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='city'
+                      type="text"
+                      name="city"
                       onChange={this.handleChange}
-                      placeholder='enter city here'
+                      placeholder="enter city here"
                     />
                   </Form.Group>
                 </div>
               </div>
 
               {/* ROW THREE */}
-              <div className='row'>
-                <div className='col-6'>
+              <div className="row">
+                <div className="col-6">
                   {/* EMAIL */}
                   <Form.Group>
-                    <Form.Label htmlFor='email'>Email</Form.Label>
+                    <Form.Label htmlFor="email">Email</Form.Label>
                     <Form.Control
                       style={input}
-                      type='email'
-                      name='email'
+                      type="email"
+                      name="email"
                       onChange={this.handleChange}
-                      placeholder='enter email here'
+                      placeholder="enter email here"
                     />
                   </Form.Group>
                 </div>
-                <div className='col-6'>
+                <div className="col-6">
                   {/* STATE */}
                   <Form.Group>
-                    <Form.Label htmlFor='state'>State</Form.Label>
+                    <Form.Label htmlFor="state">State</Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='state'
+                      type="text"
+                      name="state"
                       onChange={this.handleChange}
-                      placeholder='enter state here'
+                      placeholder="enter state here"
                     />
                   </Form.Group>
                 </div>
               </div>
 
               {/* ROW FOUR */}
-              <div className='row'>
-                <div className='col-6'>
+              <div className="row">
+                <div className="col-6">
                   {/* ZIP CODE */}
                   <Form.Group>
-                    <Form.Label htmlFor='zipCode'>Zip Code</Form.Label>
+                    <Form.Label htmlFor="zipCode">Zip Code</Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='zipCode'
+                      type="text"
+                      name="zipCode"
                       onChange={this.handleChange}
-                      placeholder='enter zip code here'
+                      placeholder="enter zip code here"
                     />
                   </Form.Group>
                 </div>
-                <div className='col-6'>
+                <div className="col-6">
                   {/* ROLE */}
                   <Form.Group>
-                    <Form.Label htmlFor='role'>Role</Form.Label>
+                    <Form.Label htmlFor="role">Role</Form.Label>
                     <Form.Control
                       style={input}
-                      type='text'
-                      name='role'
+                      type="text"
+                      name="role"
                       onChange={this.handleChange}
-                      placeholder='enter role here'
+                      placeholder="enter role here"
                     />
                   </Form.Group>
                 </div>
@@ -217,55 +219,55 @@ class Contact extends Component {
 
               {/* MESSAGE */}
               <Form.Group>
-                <Form.Label htmlFor='message'>Message</Form.Label>
+                <Form.Label htmlFor="message">Message</Form.Label>
                 <Form.Control
                   style={input}
-                  as='textarea'
+                  as="textarea"
                   rows={3}
-                  name='message'
+                  name="message"
                   onChange={this.handleChange}
-                  placeholder='enter your message here'
+                  placeholder="enter your message here"
                 />
               </Form.Group>
 
-              <Button id='submitBtn' variant='primary' type='submit'>
+              <Button id="submitBtn" variant="primary" type="submit">
                 Submit
               </Button>
             </Form>
           </div>
 
           {/* RIGHT SIDE */}
-          <div className='col-6'>
-            <h1 className='contactHeader'>Address:</h1>
-            <a href='https://www.google.com/maps/place/1614+US-281,+Marble+Falls,+TX+78654/@30.5872286,-98.2759144,17z/data=!3m1!4b1!4m5!3m4!1s0x865b1d0285ae51ef:0x905c3a738fb8eed9!8m2!3d30.5872286!4d-98.2737257'>
+          <div className="col-6">
+            <h1 className="contactHeader">Address:</h1>
+            <a href="https://www.google.com/maps/place/1614+US-281,+Marble+Falls,+TX+78654/@30.5872286,-98.2759144,17z/data=!3m1!4b1!4m5!3m4!1s0x865b1d0285ae51ef:0x905c3a738fb8eed9!8m2!3d30.5872286!4d-98.2737257">
               <h3 hr style={textStyle}>
                 1614 US-281 Suite B, Marble Falls, TX 78654
               </h3>
             </a>
-            <h1 className='subHeader'>Number / Fax</h1>
+            <h1 className="subHeader">Number / Fax</h1>
             <ul style={textStyle}>
               <li>Office: (830)-798-2142</li>
               <li>Toll: (866)-472-6949</li>
               <li>Fax: (830)-693-4169</li>
             </ul>
-            <h1 className='subHeader'>Social Media</h1>
+            <h1 className="subHeader">Social Media</h1>
             <ul>
               <a
                 style={textStyle}
-                href='https://www.linkedin.com/company/southwest-education-inc/about/'
+                href="https://www.linkedin.com/company/southwest-education-inc/about/"
               >
                 <li>LinkedIn</li>
               </a>
-              <a style={textStyle} href='https://twitter.com/SouthwestEduca1'>
+              <a style={textStyle} href="https://twitter.com/SouthwestEduca1">
                 <li>Twitter</li>
               </a>
-              <a style={textStyle} href='/'>
+              <a style={textStyle} href="/">
                 <li>FaceBook</li>
               </a>
             </ul>
           </div>
         </div>
-        <hr className='container testimonial' />
+        <hr className="container testimonial" />
       </div>
     );
   }
