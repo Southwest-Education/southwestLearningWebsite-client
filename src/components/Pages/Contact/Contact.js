@@ -206,7 +206,7 @@ const Contact = () => {
               <Form.Label>Message</Form.Label>
               <Form.Control
                 style={input}
-                type="textarea"
+                as="textarea"
                 rows={3}
                 value={message}
                 placeholder="enter your message here"
