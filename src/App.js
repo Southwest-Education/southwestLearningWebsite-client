@@ -22,7 +22,7 @@ import MainTitle from './components/MainTitle/MainTitle';
 // MAPBOX MARKER
 import MapBoxMarker from './components/MapBoxMarker/MapBoxMarker';
 // SENT MESSAGE
-import SentMessage from './components/sentMessage/SentMessage';
+import SentMessage from './components/SentMessage/SentMessage';
 
 function App() {
   return (
