@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 
-const SentMesage = () => {
+const SentMessage = () => {
   return (
     <div className="container sentMessageDiv">
       <Card className="text-center">
@@ -23,4 +23,4 @@ const SentMesage = () => {
   );
 };
 
-export default SentMesage;
+export default SentMessage;
