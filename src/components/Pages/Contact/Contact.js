@@ -72,11 +72,7 @@ const Contact = () => {
         {/* LEFT SIDE */}
         <div style={centerLine} className="col-6">
           <h1 className="contactHeader">Contact For More Information</h1>
-          <Form
-            style={textStyle}
-            variant="bg-light"
-            onSubmit={this.handleSubmit}
-          >
+          <Form style={textStyle} variant="bg-light" onSubmit={handleSubmit}>
             {/* ROW ONE */}
             <div className="row">
               <div className="col-6">
