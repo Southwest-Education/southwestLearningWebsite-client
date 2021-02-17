@@ -4,8 +4,8 @@ import { Card } from 'react-bootstrap';
 
 const SentMesage = () => {
   return (
-    <div className='container sentMessageDiv'>
-      <Card className='text-center'>
+    <div className="container sentMessageDiv">
+      <Card className="text-center">
         <Card.Header></Card.Header>
         <Card.Body>
           <Card.Title>Message Successfully sent!</Card.Title>
@@ -13,11 +13,11 @@ const SentMesage = () => {
             Thank you, We apprieciate you and one of your sale respresentatives
             will be in contact with you very shortly!
           </Card.Text>
-          <Link to='/'>
-            <button variant='primary'>Go Home</button>
+          <Link to="/">
+            <button variant="primary">Go Home</button>
           </Link>
         </Card.Body>
-        <Card.Footer className='text-muted'></Card.Footer>
+        <Card.Footer className="text-muted"></Card.Footer>
       </Card>
     </div>
   );
