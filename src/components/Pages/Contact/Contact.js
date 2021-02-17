@@ -142,26 +142,28 @@ const Contact = () => {
               <div className="col-6">
                 {/* EMAIL */}
                 <Form.Group>
-                  <Form.Label htmlFor="email">Email</Form.Label>
+                  <Form.Label>Email</Form.Label>
                   <Form.Control
                     style={input}
-                    type="email"
-                    name="email"
-                    onChange={this.handleChange}
+                    type="text"
+                    value={email}
                     placeholder="enter email here"
+                    required
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </Form.Group>
               </div>
               <div className="col-6">
                 {/* STATE */}
                 <Form.Group>
-                  <Form.Label htmlFor="state">State</Form.Label>
+                  <Form.Label>State</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="state"
-                    onChange={this.handleChange}
+                    value={state}
                     placeholder="enter state here"
+                    required
+                    onChange={(e) => setState(e.target.value)}
                   />
                 </Form.Group>
               </div>
