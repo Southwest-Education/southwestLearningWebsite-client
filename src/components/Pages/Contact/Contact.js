@@ -65,7 +65,7 @@ class Contact extends Component {
       }
     );
 
-    window.open('/SentMessage');
+    window.location.replace('/SentMessage');
   };
 
   render() {
