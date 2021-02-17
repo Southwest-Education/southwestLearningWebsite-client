@@ -76,33 +76,33 @@ const Contact = () => {
             {/* ROW ONE */}
             <div className="row">
               <div className="col-6">
+                {/* NAME */}
                 <Form.Group>
-                  <Form.Label htmlFor="name">Name</Form.Label>
+                  <Form.Label>Name</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="name"
-                    onChange={this.handleChange}
+                    value={name}
                     placeholder="enter name here"
+                    required
+                    onChange={(e) => setName(e.target.value)}
                   />
                 </Form.Group>
               </div>
               <div className="col-6">
                 {/* STREET ADDRESS */}
                 <Form.Group>
-                  <Form.Label htmlFor="streetAddress">
-                    Street Address
-                  </Form.Label>
+                  <Form.Label>Street Address</Form.Label>
                   <Form.Control
                     style={input}
                     type="text"
-                    name="streetAddress"
-                    onChange={this.handleChange}
+                    value={streetAddress}
                     placeholder="enter street address here"
+                    required
+                    onChange={(e) => setStreetAddress(e.target.value)}
                   />
                 </Form.Group>
               </div>
-              {/* NAME */}
             </div>
 
             {/* ROW TW0 */}
