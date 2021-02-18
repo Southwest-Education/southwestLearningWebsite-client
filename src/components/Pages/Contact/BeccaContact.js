@@ -18,7 +18,7 @@ const BeccaContact = () => {
     console.log(name);
 
     let res = await axios.post(
-      'api/form',
+      'api/form/becca',
       {
         name,
         streetAddress,
