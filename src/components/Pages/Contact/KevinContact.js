@@ -64,7 +64,7 @@ const KevinContact = () => {
 
   return (
     <div>
-      <h1 className="contactHeader">Kevins's Contact Form</h1>
+      <h1 className="contactHeader">Kevin's Contact Form</h1>
       <Form style={textStyle} variant="bg-light" onSubmit={handleSubmit}>
         {/* ROW ONE */}
         <div className="row">
