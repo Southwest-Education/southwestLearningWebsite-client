@@ -50,8 +50,8 @@ export default class WhereWeReach extends Component {
           }}
         >
           <NavigationControl className="navControlStyle" />
-          {data.map((data) =>
-            data.geometry.map((coord) => {
+          {data.map((mapData) =>
+            mapData.geometry.map((coord) => {
               return (
                 <Marker
                   key={coord._id}
