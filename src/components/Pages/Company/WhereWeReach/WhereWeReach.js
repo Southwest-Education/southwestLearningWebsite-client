@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 import ReactMapGL, { Marker, NavigationControl } from "react-map-gl";
 import axios from "axios";
@@ -19,6 +19,19 @@ const WhereWeReach = () => {
     zoom: 3.75,
   });
 
+  const [mapData, getMapData] = useState("");
+
+  useEffect(() => {
+    getAllMapData();
+  }, []);
+
+  const getAllMapData = () => {
+    axios.get("/api/map").then((res) => {
+      const data = res.data;
+      getMapData({ data: data });
+    });
+  };
+
   return (
     <div className="container">
       <ReactMapGL
@@ -31,6 +44,7 @@ const WhereWeReach = () => {
       >
         {" "}
         <NavigationControl className="navControlStyle" />
+        {console.log(mapData)}
       </ReactMapGL>
       <hr className="whereWeReach" />
     </div>
@@ -39,17 +53,8 @@ const WhereWeReach = () => {
 
 export default WhereWeReach;
 
-//   componentDidMount() {
-//     axios.get('/api/map').then((res) => {
-//       const data = res.data;
-//       this.setState({ data: data });
-//     });
-//   }
-
-//
-
-//           {data.map((mapData) =>
-//             mapData.geometry.map((coord) => {
+//           {mapData.map((data) =>
+//             data.geometry.map((coord) => {
 //               return (
 //                 <Marker
 //                   key={coord._id}
@@ -64,6 +69,3 @@ export default WhereWeReach;
 //                     icon={faMapMarkerAlt}
 //                   />
 //                 </Marker>
-//               );
-//             })
-//           )}
