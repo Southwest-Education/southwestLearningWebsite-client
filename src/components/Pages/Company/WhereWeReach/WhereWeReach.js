@@ -28,7 +28,10 @@ const WhereWeReach = () => {
         onViewportChange={(viewport) => {
           setViewport(viewport);
         }}
-      ></ReactMapGL>
+      >
+        {" "}
+        <NavigationControl className="navControlStyle" />
+      </ReactMapGL>
       <hr className="whereWeReach" />
     </div>
   );
@@ -44,7 +47,7 @@ export default WhereWeReach;
 //   }
 
 //
-//           <NavigationControl className="navControlStyle" />
+
 //           {data.map((mapData) =>
 //             mapData.geometry.map((coord) => {
 //               return (
