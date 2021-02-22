@@ -19,21 +19,22 @@ const WhereWeReach = () => {
     zoom: 3.75,
   });
 
-  return <div></div>;
+  return (
+    <div className="container">
+      <ReactMapGL
+        {...viewport}
+        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapStyle={process.env.REACT_APP_MAPBOX_STYLE}
+        onViewportChange={(viewport) => {
+          setViewport(viewport);
+        }}
+      ></ReactMapGL>
+      <hr className="whereWeReach" />
+    </div>
+  );
 };
 
 export default WhereWeReach;
-
-// export default class WhereWeReach extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       viewport: {
-//
-//       },
-//       data: [],
-//     };
-//   }
 
 //   componentDidMount() {
 //     axios.get('/api/map').then((res) => {
@@ -42,23 +43,7 @@ export default WhereWeReach;
 //     });
 //   }
 
-//   render() {
-//     const { viewport, data } = this.state;
-
-//     return (
-//       <div className="container">
-//         <ReactMapGL
-//           width={viewport.width}
-//           height={viewport.height}
-//           latitude={viewport.latitude}
-//           longitude={viewport.longitude}
-//           zoom={viewport.zoom}
-//           mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-//           mapStyle={process.env.REACT_APP_MAPBOX_STYLE}
-//           onViewportChange={(viewport) => {
-//             this.setState({ viewport });
-//           }}
-//         >
+//
 //           <NavigationControl className="navControlStyle" />
 //           {data.map((mapData) =>
 //             mapData.geometry.map((coord) => {
@@ -79,9 +64,3 @@ export default WhereWeReach;
 //               );
 //             })
 //           )}
-//         </ReactMapGL>
-//         <hr className="whereWeReach" />
-//       </div>
-//     );
-//   }
-// }
