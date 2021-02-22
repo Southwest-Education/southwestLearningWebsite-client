@@ -1,28 +1,29 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 // HOME
-import Home from './components/Pages/Home/Home';
+import Home from "./components/Pages/Home/Home";
 // PRODUCTS
-import ReadingPlus from './components/Pages/Products/ReadingPlus/ReadingPlus';
-import RedboxVR from './components/Pages/Products/RedboxVR/RedboxVR';
-import Roadway2Learning from './components/Pages/Products/Roadway2Learning/Roadway2Learning';
-import SymphonyMath from './components/Pages/Products/SymphonyMath/SymphonyMath';
-import Testimonials from './components/Pages/Products/Testimonials/Testimonials';
+import ReadingPlus from "./components/Pages/Products/ReadingPlus/ReadingPlus";
+import RedboxVR from "./components/Pages/Products/RedboxVR/RedboxVR";
+import Roadway2Learning from "./components/Pages/Products/Roadway2Learning/Roadway2Learning";
+import SymphonyMath from "./components/Pages/Products/SymphonyMath/SymphonyMath";
+import Testimonials from "./components/Pages/Products/Testimonials/Testimonials";
 // COMPANY
-import AboutUs from './components/Pages/Company/AboutUs/AboutUs';
-import Team from './components/Pages/Company/Team/Team';
-import WhereWeReach from './components/Pages/Company/WhereWeReach/WhereWeReach';
+import AboutUs from "./components/Pages/Company/AboutUs/AboutUs";
+import Team from "./components/Pages/Company/Team/Team";
+import WhereWeReach from "./components/Pages/Company/WhereWeReach/WhereWeReach";
 //CONTACT
-import Contact from './components/Pages/Contact/Contact';
-import KevinContact from './components/Pages/Contact/KevinContact';
-import BeccaContact from './components/Pages/Contact/BeccaContact';
-import DebbieContact from './components/Pages/Contact/DebbieContact';
+import Contact from "./components/Pages/Contact/Contact";
+import KevinContact from "./components/Pages/Contact/KevinContact";
+import BeccaContact from "./components/Pages/Contact/BeccaContact";
+import DebbieContact from "./components/Pages/Contact/DebbieContact";
 // HEADER/TITLE
-import Header from './components/Header/Header';
-import MainTitle from './components/MainTitle/MainTitle';
+import Header from "./components/Header/Header";
+import MainTitle from "./components/MainTitle/MainTitle";
 // MAPBOX MARKER
-import MapBoxMarker from './components/MapBoxMarker/MapBoxMarker';
+import MapBoxMarker from "./components/MapBoxMarker/MapBoxMarker";
 // SENT MESSAGE
-import SentMessage from './components/SentMessage/SentMessage';
+import SentMessage from "./components/SentMessage/SentMessage";
 
 function App() {
   return (
