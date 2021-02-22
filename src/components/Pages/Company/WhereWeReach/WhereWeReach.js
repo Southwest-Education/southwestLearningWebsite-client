@@ -11,6 +11,14 @@ import mapboxgl from "mapbox-gl";
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 const WhereWeReach = () => {
+  const [viewport, setViewport] = useState({
+    width: "100%",
+    height: "65vh",
+    latitude: 39.8283,
+    longitude: -98.5795,
+    zoom: 3.75,
+  });
+
   return <div></div>;
 };
 
@@ -21,11 +29,7 @@ export default WhereWeReach;
 //     super(props);
 //     this.state = {
 //       viewport: {
-//         width: '100%',
-//         height: '65vh',
-//         latitude: 39.8283,
-//         longitude: -98.5795,
-//         zoom: 3.75,
+//
 //       },
 //       data: [],
 //     };
