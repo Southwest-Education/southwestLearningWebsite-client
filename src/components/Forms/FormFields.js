@@ -179,3 +179,7 @@ export const ContactFormFields = ({ url }) => {
     </div>
   );
 };
+
+export const MapDataFormFields = ({ url }) => {
+  return <div></div>;
+};

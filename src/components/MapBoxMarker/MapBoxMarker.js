@@ -1,7 +1,12 @@
 import React from 'react';
+import { MapDataFormFields } from '../Forms/FormFields';
 
 export const MapBoxMarker = () => {
-  return <div></div>;
+  return (
+    <div>
+      <MapDataFormFields url={'/api/map'} />
+    </div>
+  );
 };
 
 // class MapBoxMarker extends Component {
@@ -52,8 +57,7 @@ export const MapBoxMarker = () => {
 //     // Clear form data
 //     e.target.reset();
 
-//     await axios.post(
-//       '/api/map',
+//     await axios.post(url,
 //       {
 //         name,
 //         streetAddress,
