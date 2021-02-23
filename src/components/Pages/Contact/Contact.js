@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormFields } from './FormFields';
+import { FormFields } from '../../Form/FormFields';
 import './style.css';
 
 const Contact = () => {
