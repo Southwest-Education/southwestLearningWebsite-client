@@ -5,14 +5,14 @@ import './style.css';
 
 const Contact = () => {
   const name = useFormInput('');
-  const [streetAddress, setStreetAddress] = useState('');
-  const [city, setCity] = useState('');
-  const [state, setState] = useState('');
-  const [zipCode, setZipCode] = useState('');
-  const [email, setEmail] = useState('');
-  const [role, setRole] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
+  const streetAddress = useFormInput('');
+  const city = useFormInput('');
+  const state = useFormInput('');
+  const zipCode = useFormInput('');
+  const email = useFormInput('');
+  const role = useFormInput('');
+  const phone = useFormInput('');
+  const message = useFormInput('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
