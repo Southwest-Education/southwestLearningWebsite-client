@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useFormInput, useHandleSubmit } from './Form.utils';
 
-export const FormFields = ({ url }) => {
+export const ContactFormFields = ({ url }) => {
   const name = useFormInput('');
   const streetAddress = useFormInput('');
   const city = useFormInput('');

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormFields } from '../../Form/FormFields';
+import { ContactFormFields } from '../../Form/FormFields';
 import './style.css';
 
 const Contact = () => {
@@ -21,7 +21,7 @@ const Contact = () => {
         {/* LEFT SIDE */}
         <div style={centerLine} className='col-6'>
           <h1 className='contactHeader'>Contact For More Information</h1>
-          <FormFields url={'/api/form'} />
+          <ContactFormFields url={'/api/form'} />
         </div>
 
         {/* RIGHT SIDE */}
