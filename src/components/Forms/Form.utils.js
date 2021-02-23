@@ -23,7 +23,7 @@ export function useContactHandleSubmit(url, body) {
     e.preventDefault();
 
     let res = await axios.post(url, body, {
-      headers: headers,
+      headers,
     });
 
     window.open(res.data, '_self');
@@ -40,7 +40,7 @@ export function useMapDataHandleSubmit(url, body) {
     e.target.reset();
 
     await axios.post(url, body, {
-      headers: headers,
+      headers,
     });
   }
 
