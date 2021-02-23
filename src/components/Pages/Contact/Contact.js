@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { useFormInput, useHandleSubmit } from './Form';
+import { useFormInput, useHandleSubmit } from './Form.utils';
 import './style.css';
 
 const Contact = () => {
