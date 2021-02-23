@@ -2,6 +2,18 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useFormInput, useContactHandleSubmit } from './Form.utils';
 
+const textStyle = {
+  color: '#7dc70e',
+  textAlign: 'center',
+  fontWeight: 'bold',
+  textStyleType: 'none',
+  width: '75%',
+  margin: '0 auto',
+};
+const input = {
+  textAlign: 'center',
+};
+
 export const ContactFormFields = ({ url }) => {
   const name = useFormInput('');
   const streetAddress = useFormInput('');
@@ -24,17 +36,6 @@ export const ContactFormFields = ({ url }) => {
     message: message.value,
   });
 
-  const textStyle = {
-    color: '#7dc70e',
-    textAlign: 'center',
-    fontWeight: 'bold',
-    textStyleType: 'none',
-    width: '75%',
-    margin: '0 auto',
-  };
-  const input = {
-    textAlign: 'center',
-  };
   return (
     <div>
       <Form style={textStyle} variant='bg-light' {...submit}>
