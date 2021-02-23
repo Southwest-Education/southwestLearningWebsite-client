@@ -13,8 +13,7 @@ const Contact = () => {
   const role = useFormInput('');
   const phone = useFormInput('');
   const message = useFormInput('');
-
-  let body = {
+  const submit = useHandleSubmit({
     name: name.value,
     streetAddress: streetAddress.value,
     city: city.value,
@@ -24,9 +23,7 @@ const Contact = () => {
     role: role.value,
     phone: phone.value,
     message: message.value,
-  };
-
-  const submit = useHandleSubmit(body);
+  });
 
   const textStyle = {
     color: '#7dc70e',
