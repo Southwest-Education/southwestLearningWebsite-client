@@ -31,3 +31,20 @@ export function useContactHandleSubmit(url, body) {
     onSubmit: handleSubmit,
   };
 }
+
+export function useMapDataHandleSubmit(url, body) {
+  async function handleSubmit(e) {
+    e.preventDefault();
+    e.target.reset();
+
+    await axios.post(url, body, {
+      headers: {
+        'content-type': 'application/json',
+      },
+    });
+  }
+
+  return {
+    onSubmit: handleSubmit,
+  };
+}

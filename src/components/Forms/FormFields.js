@@ -209,22 +209,6 @@ export const MapDataFormFields = ({ url }) => {
     lat: lat.value,
   };
 
-  //   handleSubmit = async (e) => {
-  //     e.preventDefault();
-
-  //     // Clear form data
-  //     e.target.reset();
-
-  //     await axios.post(url,
-  //       body,
-  //       {
-  //         headers: {
-  //           'content-type': 'application/json',
-  //         },
-  //       },
-  //     );
-  //   };
-
   return (
     <div>
       <Form style={textStyle} variant='bg-light' onSubmit={this.handleSubmit}>
