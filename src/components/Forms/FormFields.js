@@ -1,6 +1,10 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { useFormInput, useContactHandleSubmit } from './Form.utils';
+import {
+  useFormInput,
+  useContactHandleSubmit,
+  useMapDataHandleSubmit,
+} from './Form.utils';
 
 const textStyle = {
   color: '#7dc70e',
@@ -193,8 +197,7 @@ export const MapDataFormFields = ({ url }) => {
   const districtZipCode = useFormInput('');
   const lon = useFormInput('');
   const lat = useFormInput('');
-
-  const body = {
+  const submit = useMapDataHandleSubmit(url, {
     name: name.value,
     streetAddress: streetAddress.value,
     city: city.value,
@@ -207,11 +210,11 @@ export const MapDataFormFields = ({ url }) => {
     districtZipCode: districtZipCode.value,
     lon: lon.value,
     lat: lat.value,
-  };
+  });
 
   return (
     <div>
-      <Form style={textStyle} variant='bg-light' onSubmit={this.handleSubmit}>
+      <Form style={textStyle} variant='bg-light' {...submit}>
         {/* ROW ONE */}
         <div className='row'>
           <div className='col-6'>
