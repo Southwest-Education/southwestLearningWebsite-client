@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { useHandleSubmit } from './Form';
+import { useFormInput, useHandleSubmit } from './Form';
 import './style.css';
 
 const Contact = () => {
@@ -226,16 +226,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-function useFormInput(initialValue) {
-  const [value, setValue] = useState(initialValue);
-
-  function handleChange(e) {
-    setValue(e.target.value);
-  }
-
-  return {
-    value,
-    onChange: handleChange,
-  };
-}
