@@ -79,7 +79,9 @@ const WhereWeReach = () => {
           >
             <div>
               <h2 className='popupHeader'>{selectedBuilding.name}</h2>
-              <p className='popupSubHeader'>{selectedBuilding.district[0].name}</p>
+              <p className='popupSubHeader'>
+                {selectedBuilding.district[0].name}
+              </p>
             </div>
           </Popup>
         ) : null}
