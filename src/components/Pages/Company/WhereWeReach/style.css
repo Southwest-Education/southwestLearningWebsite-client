@@ -14,6 +14,7 @@
 
 .markerIcon {
   color: blue;
+  cursor: pointer;
 }
 
 .whereWeReach {
