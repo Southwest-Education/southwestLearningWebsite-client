@@ -181,20 +181,18 @@ export const ContactFormFields = ({ url }) => {
 };
 
 export const MapDataFormFields = ({ url }) => {
-  //     this.state = {
-  //       name: '',
-  //       streetAddress: '',
-  //       city: '',
-  //       state: '',
-  //       zipCode: '',
-  //       districtName: '',
-  //       districtStreetAddress: '',
-  //       districtCity: '',
-  //       districtState: '',
-  //       districtZipCode: '',
-  //       lon: '',
-  //       lat: '',
-  //     };
+  const name = useFormInput('');
+  const streetAddress = useFormInput('');
+  const city = useFormInput('');
+  const state = useFormInput('');
+  const zipCode = useFormInput('');
+  const districtName = useFormInput('');
+  const districtStreetAddress = useFormInput('');
+  const districtCity = useFormInput('');
+  const districtState = useFormInput('');
+  const districtZipCode = useFormInput('');
+  const lon = useFormInput('');
+  const lat = useFormInput('');
 
   //   handleSubmit = async (e) => {
   //     e.preventDefault();
@@ -248,26 +246,24 @@ export const MapDataFormFields = ({ url }) => {
           <div className='col-6'>
             {/* NAME */}
             <Form.Group>
-              <Form.Label htmlFor='name'>Name</Form.Label>
+              <Form.Label>Name</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='name'
-                onChange={this.handleChange}
                 placeholder='enter name here'
+                {...name}
               />
             </Form.Group>
           </div>
           <div className='col-6'>
             {/* DISTRICT NAME */}
             <Form.Group>
-              <Form.Label htmlFor='districtName'>District Name</Form.Label>
+              <Form.Label>District Name</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='districtName'
-                onChange={this.handleChange}
                 placeholder='enter district name here'
+                {...districtName}
               />
             </Form.Group>
           </div>
@@ -278,28 +274,24 @@ export const MapDataFormFields = ({ url }) => {
           <div className='col-6'>
             {/* STREET ADDRESS */}
             <Form.Group>
-              <Form.Label htmlFor='streetAddress'>Street Address</Form.Label>
+              <Form.Label>Street Address</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='streetAddress'
-                onChange={this.handleChange}
                 placeholder='enter street address here'
+                {...streetAddress}
               />
             </Form.Group>
           </div>
           <div className='col-6'>
             {/* DISTRICT STREET ADDRESS */}
             <Form.Group>
-              <Form.Label htmlFor='districtStreetAddress'>
-                District Street Address
-              </Form.Label>
+              <Form.Label>District Street Address</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='districtStreetAddress'
-                onChange={this.handleChange}
                 placeholder='enter district street address here'
+                {...districtStreetAddress}
               />
             </Form.Group>
           </div>
@@ -310,26 +302,24 @@ export const MapDataFormFields = ({ url }) => {
           <div className='col-6'>
             {/* CITY */}
             <Form.Group>
-              <Form.Label htmlFor='city'>City</Form.Label>
+              <Form.Label>City</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='city'
-                onChange={this.handleChange}
                 placeholder='enter city here'
+                {...city}
               />
             </Form.Group>
           </div>
           <div className='col-6'>
             {/* DISTRICT CITY */}
             <Form.Group>
-              <Form.Label htmlFor='districtCity'>District City</Form.Label>
+              <Form.Label>District City</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='districtCity'
-                onChange={this.handleChange}
                 placeholder='enter district city here'
+                {...districtCity}
               />
             </Form.Group>
           </div>
@@ -340,26 +330,24 @@ export const MapDataFormFields = ({ url }) => {
           <div className='col-6'>
             {/* STATE */}
             <Form.Group>
-              <Form.Label htmlFor='state'>State</Form.Label>
+              <Form.Label>State</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='state'
-                onChange={this.handleChange}
                 placeholder='enter state here'
+                {...state}
               />
             </Form.Group>
           </div>
           <div className='col-6'>
             {/* DISTRICT STATE */}
             <Form.Group>
-              <Form.Label htmlFor='districtState'>District State</Form.Label>
+              <Form.Label>District State</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='districtState'
-                onChange={this.handleChange}
                 placeholder='enter district state here'
+                {...districtState}
               />
             </Form.Group>
           </div>
@@ -370,28 +358,24 @@ export const MapDataFormFields = ({ url }) => {
           <div className='col-6'>
             {/* ZIP CODE */}
             <Form.Group>
-              <Form.Label htmlFor='zipCode'>Zip Code</Form.Label>
+              <Form.Label>Zip Code</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='zipCode'
-                onChange={this.handleChange}
                 placeholder='enter zip code here'
+                {...zipCode}
               />
             </Form.Group>
           </div>
           <div className='col-6'>
             {/* DISTRICT ZIP CODE */}
             <Form.Group>
-              <Form.Label htmlFor='districtZipCode'>
-                District Zip Code
-              </Form.Label>
+              <Form.Label>District Zip Code</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='districtZipCode'
-                onChange={this.handleChange}
                 placeholder='enter district zip code here'
+                {...districtZipCode}
               />
             </Form.Group>
           </div>
@@ -402,26 +386,24 @@ export const MapDataFormFields = ({ url }) => {
           <div className='col-6'>
             {/* LONGITUDE */}
             <Form.Group>
-              <Form.Label htmlFor='lon'>Longitude</Form.Label>
+              <Form.Label>Longitude</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='lon'
-                onChange={this.handleChange}
                 placeholder='enter longitude here'
+                {...lon}
               />
             </Form.Group>
           </div>
           <div className='col-6'>
             {/* LATITUDE */}
             <Form.Group>
-              <Form.Label htmlFor='lat'>Latitude</Form.Label>
+              <Form.Label>Latitude</Form.Label>
               <Form.Control
                 style={input}
                 type='text'
-                name='lat'
-                onChange={this.handleChange}
                 placeholder='enter latitude here'
+                {...lat}
               />
             </Form.Group>
           </div>
