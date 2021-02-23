@@ -61,7 +61,6 @@ function App() {
           <Route exact path="/WhereWeReach" component={WhereWeReach} />
           <Route exact path="/Contact" component={Contact} />
         </div>
-        {/* <Footer /> */}
       </div>
     </Router>
   );
