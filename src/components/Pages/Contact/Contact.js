@@ -38,15 +38,6 @@ const Contact = () => {
       }
     );
 
-    setStreetAddress('');
-    setCity('');
-    setState('');
-    setZipCode('');
-    setEmail('');
-    setRole('');
-    setPhone('');
-    setMessage('');
-
     window.open(res.data, '_self');
   };
 
