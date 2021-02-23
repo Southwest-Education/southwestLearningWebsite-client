@@ -4,11 +4,6 @@ export const MapBoxMarker = () => {
   return <div></div>;
 };
 
-// import React, { Component } from 'react';
-// import { Form, Button } from 'react-bootstrap';
-// import axios from 'axios';
-// import './style.css';
-
 // class MapBoxMarker extends Component {
 //   constructor() {
 //     super();
@@ -82,17 +77,6 @@ export const MapBoxMarker = () => {
 //   };
 
 //   render() {
-//     const textStyle = {
-//       color: '#7dc70e',
-//       textAlign: 'center',
-//       fontWeight: 'bold',
-//       textStyleType: 'none',
-//       width: '75%',
-//       margin: '0 auto',
-//     };
-//     const input = {
-//       textAlign: 'center',
-//     };
 //     return (
 //       <div>
 //         <h1>Map Marker Input Form</h1>
@@ -289,5 +273,3 @@ export const MapBoxMarker = () => {
 //     );
 //   }
 // }
-
-// export default MapBoxMarker;
