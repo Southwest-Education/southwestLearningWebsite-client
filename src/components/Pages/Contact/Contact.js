@@ -22,14 +22,14 @@ const Contact = () => {
       'api/form',
       {
         name: name.value,
-        streetAddress,
-        city,
-        state,
-        zipCode,
-        email,
-        role,
-        phone,
-        message,
+        streetAddress: streetAddress.value,
+        city: city.value,
+        state: state.value,
+        zipCode: zipCode.value,
+        email: email.value,
+        role: role.value,
+        phone: phone.value,
+        message: message.value,
       },
       {
         headers: {
