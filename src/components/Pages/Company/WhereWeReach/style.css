@@ -20,3 +20,31 @@
 .whereWeReach {
   background-color: #7dc70e !important;
 }
+
+.popupHeader {
+  color: #232323;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.popupSubHeader {
+  color: #232323;
+  font-size: 12px;
+  text-align: center;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.mapboxgl-popup-content {
+  border-style: double;
+  border-width: thick;
+  border-radius: 10% !important;
+  background: #ededed;
+}
+
+.mapboxgl-popup-close-button {
+  display: contents;
+}
