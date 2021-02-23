@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useFormInput, useHandleSubmit } from './Form.utils';
 
-export const FormFields = () => {
+export const FormFields = ({ url }) => {
   const name = useFormInput('');
   const streetAddress = useFormInput('');
   const city = useFormInput('');
@@ -12,7 +12,7 @@ export const FormFields = () => {
   const role = useFormInput('');
   const phone = useFormInput('');
   const message = useFormInput('');
-  const submit = useHandleSubmit({
+  const submit = useHandleSubmit(url, {
     name: name.value,
     streetAddress: streetAddress.value,
     city: city.value,

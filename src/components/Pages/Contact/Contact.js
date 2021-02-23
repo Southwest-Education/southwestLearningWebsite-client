@@ -21,7 +21,7 @@ const Contact = () => {
         {/* LEFT SIDE */}
         <div style={centerLine} className='col-6'>
           <h1 className='contactHeader'>Contact For More Information</h1>
-          <FormFields />
+          <FormFields url={'/api/form'} />
         </div>
 
         {/* RIGHT SIDE */}

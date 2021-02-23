@@ -14,11 +14,11 @@ export function useFormInput(initialValue) {
   };
 }
 
-export function useHandleSubmit(body) {
+export function useHandleSubmit(url, body) {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    let res = await axios.post('api/form', body, {
+    let res = await axios.post(url, body, {
       headers: {
         'content-type': 'application/json',
       },
