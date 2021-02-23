@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import ReactMapGL, { Marker, NavigationControl } from "react-map-gl";
 import axios from "axios";
-import { faMapMarkerAlt } from "@fortawesome/pro-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faMapMarkerAlt } from "@fortawesome/pro-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl";
+// import { Spinner } from "react-bootstrap";
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
@@ -19,7 +20,7 @@ const WhereWeReach = () => {
     zoom: 3.75,
   });
 
-  const [mapData, getMapData] = useState("");
+  const [mapData, getMapData] = useState([]);
 
   useEffect(() => {
     getAllMapData();
@@ -28,7 +29,7 @@ const WhereWeReach = () => {
   const getAllMapData = () => {
     axios.get("/api/map").then((res) => {
       const data = res.data;
-      getMapData({ data: data });
+      getMapData(data);
     });
   };
 
@@ -44,7 +45,7 @@ const WhereWeReach = () => {
       >
         {" "}
         <NavigationControl className="navControlStyle" />
-        {console.log(mapData)}
+        {mapData.map((data) => console.log(data))}
       </ReactMapGL>
       <hr className="whereWeReach" />
     </div>
