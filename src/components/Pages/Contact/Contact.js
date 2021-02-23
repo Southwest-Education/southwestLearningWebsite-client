@@ -16,27 +16,24 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name);
 
-    let res = await axios.post(
-      'api/form',
-      {
-        name: name.value,
-        streetAddress: streetAddress.value,
-        city: city.value,
-        state: state.value,
-        zipCode: zipCode.value,
-        email: email.value,
-        role: role.value,
-        phone: phone.value,
-        message: message.value,
+    let body = {
+      name: name.value,
+      streetAddress: streetAddress.value,
+      city: city.value,
+      state: state.value,
+      zipCode: zipCode.value,
+      email: email.value,
+      role: role.value,
+      phone: phone.value,
+      message: message.value,
+    };
+
+    let res = await axios.post('api/form', body, {
+      headers: {
+        'content-type': 'application/json',
       },
-      {
-        headers: {
-          'content-type': 'application/json',
-        },
-      }
-    );
+    });
 
     window.open(res.data, '_self');
   };
@@ -85,10 +82,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={streetAddress}
                     placeholder='enter street address here'
                     required
-                    onChange={(e) => setStreetAddress(e.target.value)}
+                    {...streetAddress}
                   />
                 </Form.Group>
               </div>
@@ -103,10 +99,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={phone}
                     placeholder='enter phone number here'
                     required
-                    onChange={(e) => setPhone(e.target.value)}
+                    {...phone}
                   />
                 </Form.Group>
               </div>
@@ -117,10 +112,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={city}
                     placeholder='enter city here'
                     required
-                    onChange={(e) => setCity(e.target.value)}
+                    {...city}
                   />
                 </Form.Group>
               </div>
@@ -135,10 +129,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={email}
                     placeholder='enter email here'
                     required
-                    onChange={(e) => setEmail(e.target.value)}
+                    {...email}
                   />
                 </Form.Group>
               </div>
@@ -149,10 +142,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={state}
                     placeholder='enter state here'
                     required
-                    onChange={(e) => setState(e.target.value)}
+                    {...state}
                   />
                 </Form.Group>
               </div>
@@ -167,10 +159,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={role}
                     placeholder='enter role here'
                     required
-                    onChange={(e) => setRole(e.target.value)}
+                    {...role}
                   />
                 </Form.Group>
               </div>
@@ -181,10 +172,9 @@ const Contact = () => {
                   <Form.Control
                     style={input}
                     type='text'
-                    value={zipCode}
                     placeholder='enter zip code here'
                     required
-                    onChange={(e) => setZipCode(e.target.value)}
+                    {...zipCode}
                   />
                 </Form.Group>
               </div>
@@ -197,10 +187,9 @@ const Contact = () => {
                 style={input}
                 as='textarea'
                 rows={3}
-                value={message}
                 placeholder='enter your message here'
                 required
-                onChange={(e) => setMessage(e.target.value)}
+                {...message}
               />
             </Form.Group>
 
