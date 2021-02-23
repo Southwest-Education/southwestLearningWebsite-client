@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import axios from 'axios';
+import { useHandleSubmit } from './Form';
 import './style.css';
 
 const Contact = () => {
@@ -14,29 +14,19 @@ const Contact = () => {
   const phone = useFormInput('');
   const message = useFormInput('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    let body = {
-      name: name.value,
-      streetAddress: streetAddress.value,
-      city: city.value,
-      state: state.value,
-      zipCode: zipCode.value,
-      email: email.value,
-      role: role.value,
-      phone: phone.value,
-      message: message.value,
-    };
-
-    let res = await axios.post('api/form', body, {
-      headers: {
-        'content-type': 'application/json',
-      },
-    });
-
-    window.open(res.data, '_self');
+  let body = {
+    name: name.value,
+    streetAddress: streetAddress.value,
+    city: city.value,
+    state: state.value,
+    zipCode: zipCode.value,
+    email: email.value,
+    role: role.value,
+    phone: phone.value,
+    message: message.value,
   };
+
+  const submit = useHandleSubmit(body);
 
   const textStyle = {
     color: '#7dc70e',
@@ -59,7 +49,7 @@ const Contact = () => {
         {/* LEFT SIDE */}
         <div style={centerLine} className='col-6'>
           <h1 className='contactHeader'>Contact For More Information</h1>
-          <Form style={textStyle} variant='bg-light' onSubmit={handleSubmit}>
+          <Form style={textStyle} variant='bg-light' {...submit}>
             {/* ROW ONE */}
             <div className='row'>
               <div className='col-6'>
