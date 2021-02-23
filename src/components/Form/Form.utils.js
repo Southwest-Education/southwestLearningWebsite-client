@@ -14,7 +14,7 @@ export function useFormInput(initialValue) {
   };
 }
 
-export function useHandleSubmit(url, body) {
+export function useContactHandleSubmit(url, body) {
   async function handleSubmit(e) {
     e.preventDefault();
 

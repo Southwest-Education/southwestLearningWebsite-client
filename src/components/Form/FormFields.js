@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { useFormInput, useHandleSubmit } from './Form.utils';
+import { useFormInput, useContactHandleSubmit } from './Form.utils';
 
 export const ContactFormFields = ({ url }) => {
   const name = useFormInput('');
@@ -12,7 +12,7 @@ export const ContactFormFields = ({ url }) => {
   const role = useFormInput('');
   const phone = useFormInput('');
   const message = useFormInput('');
-  const submit = useHandleSubmit(url, {
+  const submit = useContactHandleSubmit(url, {
     name: name.value,
     streetAddress: streetAddress.value,
     city: city.value,
