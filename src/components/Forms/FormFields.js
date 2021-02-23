@@ -194,42 +194,29 @@ export const MapDataFormFields = ({ url }) => {
   const lon = useFormInput('');
   const lat = useFormInput('');
 
+  const body = {
+    name: name.value,
+    streetAddress: streetAddress.value,
+    city: city.value,
+    state: state.value,
+    zipCode: zipCode.value,
+    districtName: districtName.value,
+    districtStreetAddress: districtStreetAddress.value,
+    districtCity: districtCity.value,
+    districtState: districtState.value,
+    districtZipCode: districtZipCode.value,
+    lon: lon.value,
+    lat: lat.value,
+  };
+
   //   handleSubmit = async (e) => {
   //     e.preventDefault();
-
-  //     const {
-  //       name,
-  //       streetAddress,
-  //       city,
-  //       state,
-  //       zipCode,
-  //       districtName,
-  //       districtStreetAddress,
-  //       districtCity,
-  //       districtState,
-  //       districtZipCode,
-  //       lon,
-  //       lat,
-  //     } = this.state;
 
   //     // Clear form data
   //     e.target.reset();
 
   //     await axios.post(url,
-  //       {
-  //         name,
-  //         streetAddress,
-  //         city,
-  //         state,
-  //         zipCode,
-  //         districtName,
-  //         districtStreetAddress,
-  //         districtCity,
-  //         districtState,
-  //         districtZipCode,
-  //         lon,
-  //         lat,
-  //       },
+  //       body,
   //       {
   //         headers: {
   //           'content-type': 'application/json',
