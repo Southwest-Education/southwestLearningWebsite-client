@@ -19,7 +19,7 @@ const WhereWeReach = () => {
     zoom: 3.75,
   });
 
-  const [mapData, getMapData] = useState([]);
+  const [mapData, setMapData] = useState([]);
 
   const [selectedBuilding, setSelectedBuilding] = useState(null);
 
@@ -30,7 +30,7 @@ const WhereWeReach = () => {
   const getAllMapData = () => {
     axios.get('/api/map').then((res) => {
       const data = res.data;
-      getMapData(data);
+      setMapData(data);
     });
   };
 
