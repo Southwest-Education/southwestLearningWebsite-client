@@ -1,12 +1,12 @@
 .aboutUsParagraph {
   text-align: center;
-  color: hsl(84, 87%, 42%);
+  color: #232323;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
 .aboutUsHeader {
-  color: #cdcdcd !important;
+  color: #ededed !important;
   text-align: center;
   text-decoration: underline;
   margin-top: 0;
