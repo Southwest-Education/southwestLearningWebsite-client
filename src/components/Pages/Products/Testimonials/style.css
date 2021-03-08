@@ -1,5 +1,5 @@
 .testimonialsTitle {
-    color: #299cc4 !important;
+    color: #ededed !important;
     text-align: center;
     text-decoration: underline;
     margin-top: 0.5%;
@@ -7,7 +7,7 @@
 }
 
 .testimonialsSubTitle {
-    color: #cdcdcd !important;
+    color: #ededed !important;
     text-align: center;
     text-decoration: underline;
     margin-top: 0.5%;
@@ -16,7 +16,7 @@
 
 .ReadingPlusParagraph{
     text-align: center;
-    color: #7dc70e;
+    color: #232323;
     margin: 2% auto;
     width: 75%;
 }
@@ -24,7 +24,7 @@
 .testimonialPerson {
     text-align: center;
     text-decoration: underline;
-    color: #f97c05;
+    color: #ededed;
     margin: 2% auto;
     width: 75%;
     font-weight: bolder;
