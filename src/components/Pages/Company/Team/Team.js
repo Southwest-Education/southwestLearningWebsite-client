@@ -21,7 +21,7 @@ const Team = () => {
         <div className='row'>
           {/* KEVIN */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
-            <h4 className='title'>Kevin Sheridan</h4>
+            <h4 className='title'>Kevin Sheridan - Utah</h4>
             <div className='box'>
               <div className='box-img'>
                 <KevinImage />
@@ -52,7 +52,7 @@ const Team = () => {
           </div>
           {/* BECCA */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
-            <h4 className='title'>Becca Camarillo</h4>
+            <h4 className='title'>Becca Camarillo - Texas</h4>
             <div className='box'>
               <div className='box-img'>
                 <BeccaImage />
@@ -85,7 +85,7 @@ const Team = () => {
 
           {/* DEBBIE */}
           <div className='col-sm-6 col-md-4' style={{ padding: 20 }}>
-            <h4 className='title'>Debbie Netardus</h4>
+            <h4 className='title'>Debbie Netardus - Texas</h4>
             <div className='box'>
               <div className='box-img'>
                 <DebbieImage />
