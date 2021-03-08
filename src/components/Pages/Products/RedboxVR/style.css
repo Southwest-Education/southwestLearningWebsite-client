@@ -1,5 +1,5 @@
 .divOneText2RedBox {
-  color: #7dc70e;
+  color: #232323;
   text-align: center;
   margin: 0 14% 2%;
 }
@@ -10,14 +10,14 @@
 }
 
 .redboxHeader {
-  color: #cdcdcd !important;
+  color: #ededed !important;
   text-align: center;
   text-decoration: underline;
   margin-top: 0;
 }
 
 .redboxSubHeader {
-  color: #cdcdcd !important;
+  color: #ededed !important;
   text-align: center;
   text-decoration: underline;
 }
