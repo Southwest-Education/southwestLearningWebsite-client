@@ -1,14 +1,12 @@
 import React from 'react';
 import './style.css';
 
-// BUTTONS
-import ReadingPlusBtnLogin from '../../../Buttons/ReadingPlusButton/ReadingPlusBtnLogin';
-import ContactButton from '../../../Buttons/ContactButton/ContactButton';
 // DIVS
 import ReadingPlusVideoDiv from './ReadingPlusVideoDiv/ReadingPlusVideoDiv';
 import HowItWorksDiv from './HowItWorksDiv/HowItWorksDiv';
 // IMAGES
 import ReadingPlusImage from '../../../Images/ReadingPlus/ReadingPlusImage';
+import { RedirectButton } from '../../../Buttons/Buttons';
 
 const ReadingPlus = () => {
   return (
@@ -22,8 +20,11 @@ const ReadingPlus = () => {
         <HowItWorksDiv />
       </div>
       <div className='btnDiv'>
-        <ReadingPlusBtnLogin />
-        <ContactButton />
+        <RedirectButton
+          url={'https://login.readingplus.com/'}
+          title={'Login'}
+        />
+        <RedirectButton url={'/Contact'} title={'Contact'} />
       </div>
       <hr className='container testimonial' />
     </div>

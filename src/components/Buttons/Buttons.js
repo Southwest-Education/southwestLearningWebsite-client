@@ -1,20 +1,17 @@
 import React from 'react';
 
-const ReadingPlusBtnLogin = () => {
+export const RedirectButton = ({ url, title }) => {
   return (
     <div>
       <button
         type='button'
         onClick={(e) => {
           e.preventDefault();
-          window.location.href = 'https://login.readingplus.com/';
+          window.location.href = url;
         }}
       >
-        {' '}
-        Login
+        {title}
       </button>
     </div>
   );
 };
-
-export default ReadingPlusBtnLogin;
