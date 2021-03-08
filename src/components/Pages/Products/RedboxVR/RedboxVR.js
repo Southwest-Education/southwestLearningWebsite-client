@@ -1,9 +1,6 @@
 import React from 'react';
 import './style.css';
-//BUTTONS
-import RedboxVrBtnLearnMore from '../../../Buttons/RedBoxVRButton/RedboxVrBtnLearnMore';
-import ContactButton from '../../../Buttons/ContactButton/ContactButton';
-// HEADER 
+// HEADER
 import Header from './Header/Header';
 // SUBHEADER
 import SubHeader from './SubHeader/SubHeader';
@@ -14,6 +11,8 @@ import DivOneText2 from './DivOneText2/DivOneText2';
 import RedBoxLogo from '../../../Images/RedBox/RedBoxLogo';
 import MelLogo from '../../../Images/RedBox/MelLogo';
 
+import { RedirectButton } from '../../../Buttons/Buttons';
+
 const RedboxVR = () => {
   return (
     <div>
@@ -23,13 +22,16 @@ const RedboxVR = () => {
       <DivOneText2 />
       <div className='row'>
         <div className='col-4'>
-          <RedBoxLogo className='img-fluid divOneVR'/>
+          <RedBoxLogo className='img-fluid divOneVR' />
         </div>
 
         <div className='col-4'>
           <div className='btnDiv'>
-            <RedboxVrBtnLearnMore />
-            <ContactButton />
+            <RedirectButton
+              url={'https://redboxvr.co.uk/'}
+              title={'Learn More'}
+            />
+            <RedirectButton url={'/Contact'} title={'Contact'} />
           </div>
         </div>
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.css';
 import ReactPlayer from 'react-player';
-// BUTTONS
-import SymphonyMathBtnLogin from '../../../Buttons/SymphonyMath/SymphonyMathBtnLogin';
 // HEADER
 import Header from './Header/Header';
 //SUBHEADERS
@@ -11,7 +9,8 @@ import SubHeader2 from './DivSubHeader/SubHeader2';
 // DIVS
 import DivOneText from './DivOneText/DivOneText';
 import DivOneText2 from './DivOneText2/DivOneText2';
-import ContactButton from '../../../Buttons/ContactButton/ContactButton';
+
+import { RedirectButton } from '../../../Buttons/Buttons';
 
 const SymphonyMath = () => {
   const centerLine = {
@@ -29,8 +28,13 @@ const SymphonyMath = () => {
             <DivOneText2 />
             {/* BUTTONS */}
             <div className='btnDiv'>
-              <SymphonyMathBtnLogin />
-              <ContactButton />
+              <RedirectButton
+                url={
+                  'https://content.symphonylearning.com/assets/student/index.html?v=latest'
+                }
+                title={'Login'}
+              />
+              <RedirectButton url={'/Contact'} title={'Contact'} />
             </div>
           </div>
           <div className='col-6'>

@@ -1,20 +1,17 @@
 import React from 'react';
 
-const RedBoxVRBtnRoute = () => {
+export const RedirectButton = ({ url, title }) => {
   return (
     <div>
       <button
         type='button'
         onClick={(e) => {
           e.preventDefault();
-          window.location.href = '/RedboxVR';
+          window.location.href = url;
         }}
       >
-        {' '}
-        Learn More
+        {title}
       </button>
     </div>
   );
 };
-
-export default RedBoxVRBtnRoute;

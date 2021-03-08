@@ -1,15 +1,12 @@
 import React from 'react';
 import './style.css';
-// BUTTONS
-import SymphonyMathBtnRoute from '../Buttons/SymphonyMath/SymphonyMathBtnRoute';
-import ReadingPlusBtnRoute from '../Buttons/ReadingPlusButton/ReadingPlusBtnRoute';
-import RedBoxVRBtnRoute from '../Buttons/RedBoxVRButton/RedBoxVRBtnRoute';
 // DIVS
 import DivOne from './DivOne/DivOne';
 import DivTwo from './DivTwo/DivTwo';
 import DivThree from './DivThree/DivThree';
 //Main Paragraph
 import MainParagraph from './MainParagraph/MainParagraph';
+import { RedirectButton } from '../Buttons/Buttons';
 
 const Main = () => {
   const centerLine = {
@@ -31,7 +28,7 @@ const Main = () => {
         {/* SYMPHONY MATH */}
         <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerOne'>
           <DivOne />
-          <SymphonyMathBtnRoute />
+          <RedirectButton url={'/SymphonyMath'} title={'Learn More'} />
         </div>
 
         {/* READING PLUS DIV */}
@@ -40,13 +37,13 @@ const Main = () => {
           className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerTwo'
         >
           <DivTwo />
-          <ReadingPlusBtnRoute />
+          <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
         </div>
 
         {/* REDBOXVR */}
         <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerThree'>
           <DivThree />
-          <RedBoxVRBtnRoute />
+          <RedirectButton url={'/RedboxVR'} title={'Learn More'} />
         </div>
         <hr className='container testimonial' />
       </div>
