@@ -1,5 +1,5 @@
 .contactHeader{
-  color: #cdcdcd !important;
+  color: #ededed !important;
   text-align: center;
   margin-top: 1%;
   text-decoration: underline;
@@ -24,11 +24,12 @@ Form.Label {
 
 .subHeader {
   margin-top: 5% !important;
-  color: #cdcdcd !important;
+  color: #ededed !important;
   text-align: center;
   text-decoration: underline;
 }
 
 label {
   font-size: 20px;
+  color: #232323 !important;
 }

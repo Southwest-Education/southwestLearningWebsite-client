@@ -4,7 +4,7 @@ import './style.css';
 
 const Contact = () => {
   const textStyle = {
-    color: '#7dc70e',
+    color: '#232323',
     textAlign: 'center',
     fontWeight: 'bold',
     textStyleType: 'none',
