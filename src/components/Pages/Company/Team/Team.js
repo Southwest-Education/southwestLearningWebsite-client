@@ -37,7 +37,7 @@ const Team = () => {
                 </p>
                 <ul className='social-links'>
                   <li>
-                    <a href='kevin@southwestlearning.com'>
+                    <a href={REACT_APP_KEVIN_EMAIL}>
                       <FontAwesomeIcon icon={faEnvelopeOpenText} />
                     </a>
                   </li>
@@ -69,7 +69,7 @@ const Team = () => {
                 </p>
                 <ul className='social-links'>
                   <li>
-                    <a href='becca@southwestlearning.com'>
+                    <a href={REACT_APP_BECCA_EMAIL}>
                       <FontAwesomeIcon icon={faEnvelopeOpenText} />
                     </a>
                   </li>
@@ -103,7 +103,7 @@ const Team = () => {
                 </p>
                 <ul className='social-links'>
                   <li>
-                    <a href='debbie@southwestlearning.com'>
+                    <a href={REACT_APP_DEBBIE_EMAIL}>
                       <FontAwesomeIcon icon={faEnvelopeOpenText} />
                     </a>
                   </li>
