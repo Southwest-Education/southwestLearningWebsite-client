@@ -8,7 +8,7 @@
 }
 
 .mapboxgl-ctrl-icon {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: tomato !important;
 }
 
@@ -23,20 +23,20 @@
 
 .popupHeader {
   color: #232323;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: underline;
   text-align: center;
 }
 
 .popupSubHeader {
   color: #232323;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }
 
 .mapboxgl-popup {
-  max-width: 400px;
-  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  max-width: 25rem;
+  font: 0.75rem 1.25rem 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .mapboxgl-popup-content {

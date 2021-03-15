@@ -7,8 +7,8 @@ const SymphonyMathTestimonialOne = () => {
     <div>
       <ReactPlayer
         controls={true}
-        width='550px'
-        height='350px'
+        width='34.375rem'
+        height='21.875rem'
         url='https://vimeo.com/55886592'
       />
     </div>
