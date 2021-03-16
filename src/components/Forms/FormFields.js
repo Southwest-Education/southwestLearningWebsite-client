@@ -45,7 +45,7 @@ export const ContactFormFields = ({ url }) => {
       <Form style={textStyle} variant='bg-light' {...submit}>
         {/* ROW ONE */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6'>
             {/* NAME */}
             <Form.Group>
               <Form.Label>Name</Form.Label>
@@ -58,7 +58,7 @@ export const ContactFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* STREET ADDRESS */}
             <Form.Group>
               <Form.Label>Street Address</Form.Label>
@@ -75,7 +75,7 @@ export const ContactFormFields = ({ url }) => {
 
         {/* ROW TW0 */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* PHONE */}
             <Form.Group>
               <Form.Label>Phone</Form.Label>
@@ -88,7 +88,7 @@ export const ContactFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* CITY */}
             <Form.Group>
               <Form.Label>City</Form.Label>
@@ -105,7 +105,7 @@ export const ContactFormFields = ({ url }) => {
 
         {/* ROW THREE */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* EMAIL */}
             <Form.Group>
               <Form.Label>Email</Form.Label>
@@ -118,7 +118,7 @@ export const ContactFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* STATE */}
             <Form.Group>
               <Form.Label>State</Form.Label>
@@ -135,7 +135,7 @@ export const ContactFormFields = ({ url }) => {
 
         {/* ROW FOUR */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* ROLE */}
             <Form.Group>
               <Form.Label>Role</Form.Label>
@@ -148,7 +148,7 @@ export const ContactFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* ZIP CODE */}
             <Form.Group>
               <Form.Label>Zip Code</Form.Label>
@@ -217,7 +217,7 @@ export const MapDataFormFields = ({ url }) => {
       <Form style={textStyle} variant='bg-light' {...submit}>
         {/* ROW ONE */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* NAME */}
             <Form.Group>
               <Form.Label>Name</Form.Label>
@@ -229,7 +229,7 @@ export const MapDataFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* DISTRICT NAME */}
             <Form.Group>
               <Form.Label>District Name</Form.Label>
@@ -245,7 +245,7 @@ export const MapDataFormFields = ({ url }) => {
 
         {/* ROW TWO */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* STREET ADDRESS */}
             <Form.Group>
               <Form.Label>Street Address</Form.Label>
@@ -257,7 +257,7 @@ export const MapDataFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* DISTRICT STREET ADDRESS */}
             <Form.Group>
               <Form.Label>District Street Address</Form.Label>
@@ -273,7 +273,7 @@ export const MapDataFormFields = ({ url }) => {
 
         {/* ROW THREE */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* CITY */}
             <Form.Group>
               <Form.Label>City</Form.Label>
@@ -285,7 +285,7 @@ export const MapDataFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* DISTRICT CITY */}
             <Form.Group>
               <Form.Label>District City</Form.Label>
@@ -301,7 +301,7 @@ export const MapDataFormFields = ({ url }) => {
 
         {/* ROW FOUR */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* STATE */}
             <Form.Group>
               <Form.Label>State</Form.Label>
@@ -313,7 +313,7 @@ export const MapDataFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* DISTRICT STATE */}
             <Form.Group>
               <Form.Label>District State</Form.Label>
@@ -329,7 +329,7 @@ export const MapDataFormFields = ({ url }) => {
 
         {/* ROW FIVE */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* ZIP CODE */}
             <Form.Group>
               <Form.Label>Zip Code</Form.Label>
@@ -341,7 +341,7 @@ export const MapDataFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* DISTRICT ZIP CODE */}
             <Form.Group>
               <Form.Label>District Zip Code</Form.Label>
@@ -357,7 +357,7 @@ export const MapDataFormFields = ({ url }) => {
 
         {/* ROW SIX */}
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* LONGITUDE */}
             <Form.Group>
               <Form.Label>Longitude</Form.Label>
@@ -369,7 +369,7 @@ export const MapDataFormFields = ({ url }) => {
               />
             </Form.Group>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-xs-6 col-sm-6 '>
             {/* LATITUDE */}
             <Form.Group>
               <Form.Label>Latitude</Form.Label>

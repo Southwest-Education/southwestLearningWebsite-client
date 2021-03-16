@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 3.125rem;
     margin-bottom: 0;
-    font-size: 7rem;
+    /* font-size: 7rem; */
     background: -webkit-linear-gradient(#232323, #f97c05);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
