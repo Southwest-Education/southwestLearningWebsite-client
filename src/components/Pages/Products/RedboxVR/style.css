@@ -4,11 +4,6 @@
   margin: 0 14% 2%;
 }
 
-.divOneVR {
-  display: flex;
-  justify-content: center;
-}
-
 .redboxHeader {
   color: #ededed !important;
   text-align: center;
@@ -20,4 +15,9 @@
   color: #ededed !important;
   text-align: center;
   text-decoration: underline;
+}
+
+.vrRowTwo {
+  display: flex;
+  justify-content: center;
 }
