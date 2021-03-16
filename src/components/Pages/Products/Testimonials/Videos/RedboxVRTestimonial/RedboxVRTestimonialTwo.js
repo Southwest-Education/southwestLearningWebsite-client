@@ -7,8 +7,8 @@ const RedboxVRTestimonialTwo = () => {
     <div>
       <ReactPlayer
         controls={true}
-        width='550px'
-        height='350px'
+        width='34.375rem'
+        height='21.875rem'
         url='https://youtu.be/EXYzj6qwCCk'
       />
     </div>
