@@ -7,9 +7,6 @@ import SubHeader from './SubHeader/SubHeader';
 //DIVS
 import DivOneText from './DivOneText/DivOneText';
 import DivOneText2 from './DivOneText2/DivOneText2';
-// IMAGES
-import RedBoxLogo from '../../../Images/RedBox/RedBoxLogo';
-import MelLogo from '../../../Images/RedBox/MelLogo';
 
 import { RedirectButton } from '../../../Buttons/Buttons';
 
