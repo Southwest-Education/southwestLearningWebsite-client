@@ -16,10 +16,21 @@ import { RedirectButton } from '../../../Buttons/Buttons';
 const RedboxVR = () => {
   return (
     <div>
-      <Header />
-      <DivOneText />
-      <SubHeader />
-      <DivOneText2 />
+      <div className='row'>
+        <div className='col-sm-12'>
+          <Header />
+        </div>
+        <div className='col-sm-12'>
+          <DivOneText />
+        </div>
+        <div className='col-sm-12'>
+          <SubHeader />
+        </div>
+        <div className='col-sm-12'>
+          <DivOneText2 />
+        </div>
+      </div>
+
       <div className='row'>
         <div className='col-4'>
           <RedBoxLogo className='img-fluid divOneVR' />
@@ -31,7 +42,9 @@ const RedboxVR = () => {
               url={'https://redboxvr.co.uk/'}
               title={'Learn More'}
             />
-            <RedirectButton url={'/Contact'} title={'Contact'} />
+            <div className='col-3'>
+              <RedirectButton url={'/Contact'} title={'Contact'} />
+            </div>
           </div>
         </div>
 
