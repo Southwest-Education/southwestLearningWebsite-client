@@ -31,25 +31,17 @@ const RedboxVR = () => {
         </div>
       </div>
 
-      <div className='row'>
-        <div className='col-4'>
-          <RedBoxLogo className='img-fluid divOneVR' />
-        </div>
-
-        <div className='col-4'>
-          <div className='btnDiv'>
-            <RedirectButton
-              url={'https://redboxvr.co.uk/'}
-              title={'Learn More'}
-            />
-            <div className='col-3'>
+      <div className='row '>
+        <div className='col-sm-12 vrRowTwo'>
+          <RedirectButton
+            url={'https://redboxvr.co.uk/'}
+            title={'Learn More'}
+          />
+          <div className='row'>
+            <div className='col-sm-12'>
               <RedirectButton url={'/Contact'} title={'Contact'} />
             </div>
           </div>
-        </div>
-
-        <div className='col-4'>
-          <MelLogo className='img-fluid divOneVR melLogo' />
         </div>
       </div>
       <hr className='container testimonial' />
