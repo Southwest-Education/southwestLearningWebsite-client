@@ -26,7 +26,7 @@ const Main = () => {
 
       <div className='row threeContainers'>
         {/* SYMPHONY MATH */}
-        <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerOne'>
+        <div className='col-sm-4 containerOne'>
           <DivOne />
           <RedirectButton url={'/SymphonyMath'} title={'Learn More'} />
         </div>
@@ -34,14 +34,14 @@ const Main = () => {
         {/* READING PLUS DIV */}
         <div
           style={centerLine}
-          className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerTwo'
+          className='col-sm-4 containerTwo'
         >
           <DivTwo />
           <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
         </div>
 
         {/* REDBOXVR */}
-        <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 containerThree'>
+        <div className='col-sm-4 containerThree'>
           <DivThree />
           <RedirectButton url={'/RedboxVR'} title={'Learn More'} />
         </div>
