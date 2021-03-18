@@ -23,7 +23,7 @@ const SymphonyMath = () => {
         <Header />
         <DivOneText />
         <div className='row divOneS'>
-          <div style={centerLine} className='col-6'>
+          <div style={centerLine} className='col-sm-6'>
             <SubHeader1 />
             <DivOneText2 />
             {/* BUTTONS */}
@@ -37,7 +37,7 @@ const SymphonyMath = () => {
               <RedirectButton url={'/Contact'} title={'Contact'} />
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-sm-6'>
             <SubHeader2 />
             <div className='symphonyMathVideo'>
               <ReactPlayer
