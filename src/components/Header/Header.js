@@ -4,12 +4,14 @@ import { Dropdown } from 'react-bootstrap';
 import { faChevronCircleDown } from '@fortawesome/pro-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './style.css';
+import MainTitle from '../MainTitle/MainTitle';
 
 class Header extends Component {
   render() {
 
     return (
       <div>
+        <MainTitle />
         <nav role='navigation'>
           <div id='menuToggle'>
             <input type='checkbox' />
