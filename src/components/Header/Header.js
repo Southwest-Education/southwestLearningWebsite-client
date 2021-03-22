@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div>
       <Navbar bg='dark' className='navbar-dark' expand='lg'>
-        <Navbar.Brand href='#home'>
+        <Navbar.Brand>
           <img
             alt=''
             src='./assets/images/southwestLogo.png'
@@ -17,13 +17,12 @@ const Header = () => {
             height='30'
             className='mr-2 d-inline-block align-top'
           />
-          {/* Southwest Education */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto'>
             <Nav.Link className='navBarLink'>
-            <Link to='/Home'>Home</Link>
+            <Link to='/'>Home</Link>
             </Nav.Link>
             <NavDropdown
               title='Products'
