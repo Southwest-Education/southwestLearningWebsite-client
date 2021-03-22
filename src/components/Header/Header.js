@@ -17,6 +17,10 @@ const Header = () => {
             height='30'
             className='mr-2 d-inline-block align-top'
           />
+         {/* <h1 className='mainTitle'>Southwest Education</h1> */}
+        </Navbar.Brand>
+        <Navbar.Brand className='mainTitle'>
+          Southwest Education
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
