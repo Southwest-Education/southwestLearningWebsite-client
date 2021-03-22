@@ -26,7 +26,6 @@ const Header = () => {
               Home
             </Nav.Link>
             <NavDropdown
-              className='navBarLink'
               title='Products'
               id='basic-nav-dropdown'
             >
@@ -36,10 +35,10 @@ const Header = () => {
               <NavDropdown.Item>
                 <Link to='/SymphonyMath'>Symphony Math</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>
+              <NavDropdown.Item>
                 <Link to='/RedboxVR'>RedboxVR</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>
+              <NavDropdown.Item>
                 <Link to='/Testimonials'>Testimonials</Link>
               </NavDropdown.Item>
             </NavDropdown>
@@ -48,17 +47,18 @@ const Header = () => {
               title='Company'
               id='basic-nav-dropdown'
             >
-              <NavDropdown.Item href='#action/3.1'>About Us</NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.2'>Team</NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>
-                Where We Reach
+              <NavDropdown.Item>
+                <Link to='/AboutUs'>About Us</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>
-                Testimonials
+              <NavDropdown.Item>
+                <Link to='/Team'>Team</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to='/WhereWeReach'>Where We Reach</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className='navBarLink' href='#home'>
-              Contact
+              <Link to='/Contact'>Contact</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
