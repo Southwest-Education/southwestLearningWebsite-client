@@ -19,7 +19,7 @@ import BeccaContact from './components/Pages/Contact/BeccaContact';
 import DebbieContact from './components/Pages/Contact/DebbieContact';
 // HEADER/TITLE
 import Header from './components/Header/Header';
-// import MainTitle from './components/MainTitle/MainTitle';
+import MainTitle from './components/MainTitle/MainTitle';
 // MAPBOX MARKER
 import { MapBoxMarker } from './components/MapBoxMarker/MapBoxMarker';
 // SENT MESSAGE
@@ -30,7 +30,7 @@ function App() {
     <Router>
       <div className='App'>
         <Header />
-        {/* <MainTitle /> */}
+        <MainTitle />
         <div className='container-fluid'>
           <Route exact path='/' component={Home} />
           <Route exact path='/ReadingPlus' component={ReadingPlus} />

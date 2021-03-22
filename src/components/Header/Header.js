@@ -1,77 +1,71 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Dropdown } from 'react-bootstrap';
-import { faChevronCircleDown } from '@fortawesome/pro-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css';
-import MainTitle from '../MainTitle/MainTitle';
 
 const Header = () => {
   return (
     <div>
-      <MainTitle />
-      <nav role='navigation'>
-        <div id='menuToggle'>
-          <input type='checkbox' />
-
-          <span></span>
-          <span></span>
-          <span></span>
-
-          <ul id='menu'>
-            <img
-              className='companyLogo'
-              src='/assets/images/southwestLogo.png'
-              alt='southwestLogo'
-            />
-            <Link className='menuTitle' to='/'>
-              <li>Home</li>
-            </Link>
-            <Dropdown>
-              <Dropdown.Toggle className='menuTitle'>
-                Products {'  '}
-                <FontAwesomeIcon icon={faChevronCircleDown} />
-              </Dropdown.Toggle>
-              <Dropdown.Menu className='DropdownMenu'>
-                <Dropdown.Item className='DropdownItems' href='/ReadingPlus'>
-                  Reading Plus
-                </Dropdown.Item>
-                <Dropdown.Item className='DropdownItems' href='/SymphonyMath'>
-                  Symphony Math
-                </Dropdown.Item>
-                <Dropdown.Item className='DropdownItems' href='/RedboxVR'>
-                  RedboxVR
-                </Dropdown.Item>
-                <Dropdown.Item className='DropdownItems' href='/Testimonials'>
-                  Testimonials
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-            <Dropdown>
-              <Dropdown.Toggle className='menuTitle'>
-                Company
-                <FontAwesomeIcon icon={faChevronCircleDown} />
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu className='DropdownMenu'>
-                <Dropdown.Item className='DropdownItems' href='/AboutUs'>
-                  About Us
-                </Dropdown.Item>
-                <Dropdown.Item className='DropdownItems' href='/Team'>
-                  Team
-                </Dropdown.Item>
-                <Dropdown.Item className='DropdownItems' href='/WhereWeReach'>
-                  Where We Reach
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-
-            <Link className='menuTitle' to='/Contact'>
-              <li>Contact</li>
-            </Link>
-          </ul>
-        </div>
-      </nav>
+      <Navbar bg='dark' className='navbar-dark' expand='lg'>
+        <Navbar.Brand>
+          <img
+            alt=''
+            src='./assets/images/southwestLogo.png'
+            width='30'
+            height='30'
+            className='mr-2 d-inline-block align-top'
+          />
+         {/* <h1 className='mainTitle'>Southwest Education</h1> */}
+        </Navbar.Brand>
+        <Navbar.Brand className='mainTitle'>
+          Southwest Education
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls='basic-navbar-nav' />
+        <Navbar.Collapse id='basic-navbar-nav'>
+          <Nav className='ml-auto'>
+            <Nav.Link className='navBarLink'>
+            <Link to='/'>Home</Link>
+            </Nav.Link>
+            <NavDropdown
+              title='Products'
+              id='basic-nav-dropdown'
+            >
+              <NavDropdown.Item>
+                <Link to='/ReadingPlus'>Reading Plus</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to='/SymphonyMath'>Symphony Math</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to='/RedboxVR'>RedboxVR</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to='/Testimonials'>Testimonials</Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown
+              className='navBarLink'
+              title='Company'
+              id='basic-nav-dropdown'
+            >
+              <NavDropdown.Item>
+                <Link to='/AboutUs'>About Us</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to='/Team'>Team</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to='/WhereWeReach'>Where We Reach</Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link className='navBarLink'>
+              <Link to='/Contact'>Contact</Link>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 };
