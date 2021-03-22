@@ -22,24 +22,32 @@ const Header = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto'>
-            <Nav.Link className='navBarLink' href='#home'>Home</Nav.Link>
-            <NavDropdown className='navBarLink' title='Products' id='basic-nav-dropdown'>
+            <Nav.Link className='navBarLink' href='#home'>
+              Home
+            </Nav.Link>
+            <NavDropdown
+              className='navBarLink'
+              title='Products'
+              id='basic-nav-dropdown'
+            >
               <NavDropdown.Item>
-                <Link to='/ReadingPlus'>                
-                Reading Plus
-                </Link>
+                <Link to='/ReadingPlus'>Reading Plus</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-              <Link to='/SymphonyMath'>                
-              Symphony Math
-                </Link>
+                <Link to='/SymphonyMath'>Symphony Math</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>RedboxVR</NavDropdown.Item>
               <NavDropdown.Item href='#action/3.3'>
-                Testimonials
+                <Link to='/RedboxVR'>RedboxVR</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.3'>
+                <Link to='/Testimonials'>Testimonials</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown className='navBarLink' title='Company' id='basic-nav-dropdown'>
+            <NavDropdown
+              className='navBarLink'
+              title='Company'
+              id='basic-nav-dropdown'
+            >
               <NavDropdown.Item href='#action/3.1'>About Us</NavDropdown.Item>
               <NavDropdown.Item href='#action/3.2'>Team</NavDropdown.Item>
               <NavDropdown.Item href='#action/3.3'>
@@ -49,7 +57,9 @@ const Header = () => {
                 Testimonials
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='navBarLink' href='#home'>Contact</Nav.Link>
+            <Nav.Link className='navBarLink' href='#home'>
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
