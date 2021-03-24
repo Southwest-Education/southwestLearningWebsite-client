@@ -5,7 +5,7 @@ import { RedirectButton } from '../../Buttons/Buttons';
 const DivTwo = () => {
   return (
     <div>
-      <Card className='cardData'>
+      <Card className='pt-4 cardData'>
         <Card.Img
           variant='top'
           src='./assets/images/readingPlusLogo.png'
