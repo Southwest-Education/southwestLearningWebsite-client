@@ -14,7 +14,7 @@ const DivTwo = () => {
         />
         <Card.Body>
           <Card.Title className='cardTitle'>Reading Plus</Card.Title>
-          <Card.Text className='cardInfo pb-4'>
+          <Card.Text className='cardInfo pb-3'>
             The Reading Plus program focuses on improving and changing the way
             students read. Reading Plus targets Silent Reading Skills, Fluency,
             Comprehension, Academic Vocabulary, College-Career Readiness Skills
