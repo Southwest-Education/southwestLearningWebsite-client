@@ -1,19 +1,24 @@
 import React from 'react';
-// IMAGES
-import DivTwoImage from '../../Images/Main/DivTwoImage';
+import Card from 'react-bootstrap/Card';
+import { RedirectButton } from '../../Buttons/Buttons';
 
 const DivTwo = () => {
   return (
     <div>
-      <DivTwoImage />
-      <h1 className='containerTitle'>Reading Plus</h1>
-      <p>
-        The Reading Plus program focuses on improving and changing the way
-        students read. Reading Plus targets Silent Reading Skills, Fluency,
-        Comprehension, Academic Vocabulary, College-Career Readiness Skills and
-        Writing. Reading Plus is web-based and can be use 24/7 from anywhere at
-        anytime.
-      </p>
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant='top' src='./assets/images/readingPlusLogo.png' />
+        <Card.Body>
+          <Card.Title>Reading Plus</Card.Title>
+          <Card.Text>
+            The Reading Plus program focuses on improving and changing the way
+            students read. Reading Plus targets Silent Reading Skills, Fluency,
+            Comprehension, Academic Vocabulary, College-Career Readiness Skills
+            and Writing. Reading Plus is web-based and can be use 24/7 from
+            anywhere at anytime.
+          </Card.Text>
+          <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
+        </Card.Body>
+      </Card>
     </div>
   );
 };
