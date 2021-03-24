@@ -8,22 +8,20 @@ import DivThree from './DivThree/DivThree';
 import MainParagraph from './MainParagraph/MainParagraph';
 const Main = () => {
   return (
-    <>
-      <div>
-        <MainParagraph />
-      </div>
-      <div className='container'>
-        <div className='row'>
+    <div>
+      <MainParagraph />
+      <div className='mt-5 container'>
+        <div className='row products'>
           {/* SYMPHONY MATH */}
           <DivOne />
-          {/* READING PLUS DIV */}
+          {/* READING PLUS */}
           <DivTwo />
           {/* REDBOXVR */}
           <DivThree />
         </div>
-        <hr className='container testimonial' />
+        {/* <hr className='container testimonial' /> */}
       </div>
-    </>
+    </div>
   );
 };
 
