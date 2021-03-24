@@ -23,7 +23,6 @@ const Main = () => {
         {/* READING PLUS DIV */}
         <div className='col-sm-4 containerTwo'>
           <DivTwo />
-          <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
         </div>
 
         {/* REDBOXVR */}
