@@ -5,7 +5,7 @@ import { RedirectButton } from '../../Buttons/Buttons';
 const DivThree = () => {
   return (
     <div>
-      <Card className='cardInfo'>
+      <Card className='cardData'>
         <Card.Img variant='top' src='./assets/images/rbvr-logo-250x96.png' />
         <Card.Body>
           <Card.Title>Redbox VR</Card.Title>
