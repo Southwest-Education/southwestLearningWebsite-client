@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { RedirectButton } from '../../Buttons/Buttons';
-// IMAGES
-// import DivOneImage from '../../Images/Main/DivOneImage';
 
 const DivOne = () => {
   return (
