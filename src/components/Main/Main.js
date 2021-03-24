@@ -9,15 +9,6 @@ import MainParagraph from './MainParagraph/MainParagraph';
 import { RedirectButton } from '../Buttons/Buttons';
 
 const Main = () => {
-  const centerLine = {
-    borderRight: '0.0625rem solid',
-    borderRightColor: '#f97c05',
-    paddingRight: '1.875rem',
-    borderLeft: '0.0625rem solid',
-    borderLeftColor: '#f97c05',
-    paddingLeft: '1.875rem',
-  };
-
   return (
     <>
       <div>
