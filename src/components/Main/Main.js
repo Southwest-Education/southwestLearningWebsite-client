@@ -12,14 +12,20 @@ const Main = () => {
       <div>
         <MainParagraph />
       </div>
-      <div className='container'>
+      <div className='mt-5 container'>
         <div className='row'>
-          {/* SYMPHONY MATH */}
-          <DivOne />
-          {/* READING PLUS DIV */}
-          <DivTwo />
-          {/* REDBOXVR */}
-          <DivThree />
+          <div className='col-4'>
+            {/* SYMPHONY MATH */}
+            <DivOne />
+          </div>
+          <div className='col-4'>
+            {/* READING PLUS DIV */}
+            <DivTwo />
+          </div>
+          <div className='col-4'>
+            {/* REDBOXVR */}
+            <DivThree />
+          </div>
         </div>
         <hr className='container testimonial' />
       </div>
