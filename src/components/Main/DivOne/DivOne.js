@@ -5,7 +5,7 @@ import { RedirectButton } from '../../Buttons/Buttons';
 const DivOne = () => {
   return (
     <div>
-      <Card style={{ width: '18rem' }}>
+      <Card className='cardInfo'>
         <Card.Img variant='top' src='./assets/images/symphonyMath.png' />
         <Card.Body>
           <Card.Title>Symphony Math</Card.Title>
