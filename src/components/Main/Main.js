@@ -7,7 +7,6 @@ import DivThree from './DivThree/DivThree';
 //Main Paragraph
 import MainParagraph from './MainParagraph/MainParagraph';
 import { RedirectButton } from '../Buttons/Buttons';
-
 const Main = () => {
   return (
     <>
@@ -19,7 +18,6 @@ const Main = () => {
         {/* SYMPHONY MATH */}
         <div className='col-sm-4 containerOne'>
           <DivOne />
-          <RedirectButton url={'/SymphonyMath'} title={'Learn More'} />
         </div>
 
         {/* READING PLUS DIV */}
