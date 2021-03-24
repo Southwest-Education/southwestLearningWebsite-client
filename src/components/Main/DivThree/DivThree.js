@@ -6,7 +6,12 @@ const DivThree = () => {
   return (
     <div>
       <Card className='cardData'>
-        <Card.Img variant='top' src='./assets/images/rbvr-logo-250x96.png' />
+        <Card.Img
+          variant='top'
+          src='./assets/images/rbvr-logo-250x96.png'
+          width='286px'
+          height='110px'
+        />
         <Card.Body>
           <Card.Title className='cardTitle'>Redbox VR</Card.Title>
           <Card.Text>

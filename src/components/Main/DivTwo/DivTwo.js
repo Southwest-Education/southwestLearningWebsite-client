@@ -6,7 +6,12 @@ const DivTwo = () => {
   return (
     <div>
       <Card className='cardData'>
-        <Card.Img variant='top' src='./assets/images/readingPlusLogo.png' />
+        <Card.Img
+          variant='top'
+          src='./assets/images/readingPlusLogo.png'
+          width='286px'
+          height='110px'
+        />
         <Card.Body>
           <Card.Title className='cardTitle'>Reading Plus</Card.Title>
           <Card.Text>

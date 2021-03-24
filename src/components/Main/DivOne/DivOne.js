@@ -6,7 +6,12 @@ const DivOne = () => {
   return (
     <div>
       <Card className='cardData'>
-        <Card.Img variant='top' src='./assets/images/symphonyMath.png' />
+        <Card.Img
+          variant='top'
+          src='./assets/images/symphonyMath.png'
+          width='286px'
+          height='110px'
+        />
         <Card.Body>
           <Card.Title className='cardTitle'>Symphony Math</Card.Title>
           <Card.Text>
