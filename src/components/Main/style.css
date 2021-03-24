@@ -13,8 +13,8 @@
 .cardData {
   width: 18rem;
   min-height: 520px;
-  /* background-color: #299cc4; */
-  border: none;
+  background-color: #299cc4 !important;
+  border: none !important;
 }
 
 .cardTitle {
