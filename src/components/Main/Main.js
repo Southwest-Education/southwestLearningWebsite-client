@@ -32,10 +32,7 @@ const Main = () => {
         </div>
 
         {/* READING PLUS DIV */}
-        <div
-          style={centerLine}
-          className='col-sm-4 containerTwo'
-        >
+        <div className='col-sm-4 containerTwo'>
           <DivTwo />
           <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
         </div>
