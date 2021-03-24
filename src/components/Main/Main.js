@@ -19,7 +19,7 @@ const Main = () => {
             <DivOne />
           </div>
           <div className='col-4'>
-            {/* READING PLUS DIV */}
+            {/* READING PLUS */}
             <DivTwo />
           </div>
           <div className='col-4'>
