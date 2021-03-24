@@ -25,3 +25,8 @@
 .cardInfo {
   text-align: center;
 }
+
+.cardButton {
+  display: flex;
+  justify-content: center;
+}

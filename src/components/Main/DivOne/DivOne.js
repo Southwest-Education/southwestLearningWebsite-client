@@ -21,7 +21,9 @@ const DivOne = () => {
             fundamentals and simply cannot adjust to more sophisticated problem
             solving. With Symphony Math®, these problems are resolved.
           </Card.Text>
-          <RedirectButton url={'/SymphonyMath'} title={'Learn More'} />
+          <div className='cardButton'>
+            <RedirectButton url={'/SymphonyMath'} title={'Learn More'} />
+          </div>
         </Card.Body>
       </Card>
     </div>

@@ -21,7 +21,9 @@ const DivTwo = () => {
             and Writing. Reading Plus is web-based and can be use 24/7 from
             anywhere at anytime.
           </Card.Text>
-          <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
+          <div className='cardButton'>
+            <RedirectButton url={'/ReadingPlus'} title={'Learn More'} />
+          </div>
         </Card.Body>
       </Card>
     </div>

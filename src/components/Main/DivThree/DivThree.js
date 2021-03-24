@@ -22,7 +22,9 @@ const DivThree = () => {
             most fascinating and inspiring destinations without ever leaving the
             classroom.
           </Card.Text>
-          <RedirectButton url={'/RedboxVR'} title={'Learn More'} />
+          <div className='cardButton'>
+            <RedirectButton url={'/RedboxVR'} title={'Learn More'} />
+          </div>
         </Card.Body>
       </Card>
     </div>
