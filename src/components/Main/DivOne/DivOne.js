@@ -14,7 +14,7 @@ const DivOne = () => {
         />
         <Card.Body>
           <Card.Title className='cardTitle'>Symphony Math</Card.Title>
-          <Card.Text>
+          <Card.Text className='cardInfo'>
             Many students struggle with math because they rely on arbitrary
             memorization techniques to answer specific questions. With this
             approach, students do not gain a substantive understanding of

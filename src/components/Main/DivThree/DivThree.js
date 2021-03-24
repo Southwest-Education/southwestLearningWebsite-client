@@ -14,7 +14,7 @@ const DivThree = () => {
         />
         <Card.Body>
           <Card.Title className='cardTitle'>Redbox VR</Card.Title>
-          <Card.Text>
+          <Card.Text className='cardInfo'>
             Great teaching has always been the secret to opening the eyes and
             minds of students, but with the introduction of Google Expeditions,
             we really are looking at a game changer when it comes to
