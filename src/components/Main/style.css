@@ -16,3 +16,8 @@
   /* background-color: #299cc4; */
   border: none;
 }
+
+.cardTitle {
+  display: flex;
+  justify-content: center;
+}

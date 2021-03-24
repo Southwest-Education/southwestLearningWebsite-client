@@ -8,7 +8,7 @@ const DivOne = () => {
       <Card className='cardData'>
         <Card.Img variant='top' src='./assets/images/symphonyMath.png' />
         <Card.Body>
-          <Card.Title>Symphony Math</Card.Title>
+          <Card.Title className='cardTitle'>Symphony Math</Card.Title>
           <Card.Text>
             Many students struggle with math because they rely on arbitrary
             memorization techniques to answer specific questions. With this

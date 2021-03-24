@@ -8,7 +8,7 @@ const DivTwo = () => {
       <Card className='cardData'>
         <Card.Img variant='top' src='./assets/images/readingPlusLogo.png' />
         <Card.Body>
-          <Card.Title>Reading Plus</Card.Title>
+          <Card.Title className='cardTitle'>Reading Plus</Card.Title>
           <Card.Text>
             The Reading Plus program focuses on improving and changing the way
             students read. Reading Plus targets Silent Reading Skills, Fluency,

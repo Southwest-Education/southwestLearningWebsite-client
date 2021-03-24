@@ -8,7 +8,7 @@ const DivThree = () => {
       <Card className='cardData'>
         <Card.Img variant='top' src='./assets/images/rbvr-logo-250x96.png' />
         <Card.Body>
-          <Card.Title>Redbox VR</Card.Title>
+          <Card.Title className='cardTitle'>Redbox VR</Card.Title>
           <Card.Text>
             Great teaching has always been the secret to opening the eyes and
             minds of students, but with the introduction of Google Expeditions,
