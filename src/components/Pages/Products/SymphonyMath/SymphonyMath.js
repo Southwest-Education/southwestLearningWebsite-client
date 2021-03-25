@@ -19,7 +19,7 @@ const SymphonyMath = () => {
         <Header />
         <DivOneText />
         <div className='row'>
-          
+
           {/* LEFT SIDE */}
           <div className='col-sm-6'>
             <SubHeader1 />
@@ -39,7 +39,7 @@ const SymphonyMath = () => {
           {/* RIGHT SIDE */}
           <div className='col-sm-6'>
             <SubHeader2 />
-            <div className='symphonyMathVideo'>
+            <div className='symphonyMathVideo d-flex justify-content-center'>
               <ReactPlayer
                 url='https://youtu.be/24WOuguyUlc'
                 controls={true}
@@ -47,7 +47,7 @@ const SymphonyMath = () => {
                 height='50vh'
               />
             </div>
-            <div className='col-sm-12 d-flex justify-content-center'>
+            <div className='col-sm-12 d-flex justify-content-center symphonyMathContactBtn'>
               <RedirectButton url={'/Contact'} title={'Contact'} />
             </div>
           </div>
