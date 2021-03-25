@@ -16,23 +16,28 @@ const ReadingPlus = () => {
         </div>
       </div>
       <div className='row'>
-        <div className="col-sm-4"></div>
+        <div className='col-sm-4'></div>
         <div className='col-sm-4 readingPlusVideo'>
           <ReadingPlusVideoDiv />
         </div>
-        <div className="col-sm-4"></div>
+        <div className='col-sm-4'></div>
       </div>
-<div className="row">
-  <div className="col-sm-12">
-  <HowItWorksDiv />
-  </div>
-</div>
-      <div className='btnDiv'>
-        <RedirectButton
-          url={'https://login.readingplus.com/'}
-          title={'Login'}
-        />
-        <RedirectButton url={'/Contact'} title={'Contact'} />
+      <div className='row'>
+        <div className='col-sm-12'>
+          <HowItWorksDiv />
+        </div>
+      </div>
+      <div className='row'>
+        <div className='col-sm-6 d-flex justify-content-center'>
+          <RedirectButton
+            url={'https://login.readingplus.com/'}
+            title={'Login'}
+          />
+        </div>
+        <div className='col-sm-6 d-flex justify-content-center'>
+          {' '}
+          <RedirectButton url={'/Contact'} title={'Contact'} />
+        </div>
       </div>
       <hr className='container testimonial' />
     </div>
