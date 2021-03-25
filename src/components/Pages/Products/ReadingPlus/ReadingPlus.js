@@ -22,10 +22,11 @@ const ReadingPlus = () => {
         </div>
         <div className="col-sm-4"></div>
       </div>
-
-      <div className=''>
-        <HowItWorksDiv />
-      </div>
+<div className="row">
+  <div className="col-sm-12">
+  <HowItWorksDiv />
+  </div>
+</div>
       <div className='btnDiv'>
         <RedirectButton
           url={'https://login.readingplus.com/'}
