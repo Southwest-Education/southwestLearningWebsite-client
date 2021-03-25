@@ -13,39 +13,42 @@ import DivOneText2 from './DivOneText2/DivOneText2';
 import { RedirectButton } from '../../../Buttons/Buttons';
 
 const SymphonyMath = () => {
-  const centerLine = {
-    borderRight: '0.1875rem solid',
-    borderRightColor: '#f97c05',
-  };
   return (
     <div>
       <div>
         <Header />
         <DivOneText />
-        <div className='row divOneS'>
-          <div style={centerLine} className='col-sm-6'>
+        <div className='row'>
+
+          {/* LEFT SIDE */}
+          <div className='col-sm-6'>
             <SubHeader1 />
             <DivOneText2 />
             {/* BUTTONS */}
-            <div className='btnDiv'>
-              <RedirectButton
-                url={
-                  'https://content.symphonylearning.com/assets/student/index.html?v=latest'
-                }
-                title={'Login'}
-              />
-              <RedirectButton url={'/Contact'} title={'Contact'} />
+            <div className='row'>
+              <div className='col-sm-12 d-flex justify-content-center'>
+                <RedirectButton
+                  url={
+                    'https://content.symphonylearning.com/assets/student/index.html?v=latest'
+                  }
+                  title={'Login'}
+                />
+              </div>
             </div>
           </div>
+          {/* RIGHT SIDE */}
           <div className='col-sm-6'>
             <SubHeader2 />
-            <div className='symphonyMathVideo'>
+            <div className='symphonyMathVideo d-flex justify-content-center'>
               <ReactPlayer
                 url='https://youtu.be/24WOuguyUlc'
                 controls={true}
-                width='67%'
+                width= '100%'
                 height='35vh'
               />
+            </div>
+            <div className='col-sm-12 d-flex justify-content-center symphonyMathContactBtn'>
+              <RedirectButton url={'/Contact'} title={'Contact'} />
             </div>
           </div>
         </div>

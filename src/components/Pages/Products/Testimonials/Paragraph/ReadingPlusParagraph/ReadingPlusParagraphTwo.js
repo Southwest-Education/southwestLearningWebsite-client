@@ -4,7 +4,7 @@ import './style.css';
 const ReadingPlusParagraphTwo = () => {
   return (
     <div>
-      <p className='ReadingPlusParagraph'>
+      <p className='testimonialParagraph'>
         <b className='testimonialPerson'>Iowa Park CISD:</b> “Approximately 70%
         of all students have shown improvement since the start of the school
         year. Our 8th graders had 91% passing rate, up 3% in just a few months

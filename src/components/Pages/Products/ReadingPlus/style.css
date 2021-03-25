@@ -2,32 +2,9 @@
   width: 50%;
   height: 50%;
   margin-left: 25%;
-  margin-top: 0.5%;
-}
-
-.readingPlusVideo {
-  margin-left: 25%;
-  margin-top: 1%;
 }
 
 .howItWorksHeader {
   color: #ededed !important;
-  text-align: center;
   text-decoration: underline;
-  margin-top: 0.5%;
-}
-
-.howItWorksParagraph {
-  color: #232323;
-  text-align: center;
-  width: 50%;
-  height: 50%;
-  margin-left: 25%;
-  margin-top: 0.5%;
-}
-
-.btnDiv {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 5%;
 }

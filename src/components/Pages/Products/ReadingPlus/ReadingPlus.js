@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-
 // DIVS
 import ReadingPlusVideoDiv from './ReadingPlusVideoDiv/ReadingPlusVideoDiv';
 import HowItWorksDiv from './HowItWorksDiv/HowItWorksDiv';
@@ -11,20 +10,34 @@ import { RedirectButton } from '../../../Buttons/Buttons';
 const ReadingPlus = () => {
   return (
     <div>
-      <ReadingPlusImage />
-      <div className='readingPlusVideo'>
-        <ReadingPlusVideoDiv />
+      <div className='row'>
+        <div className='col-sm-12'>
+          <ReadingPlusImage />
+        </div>
       </div>
-
-      <div className='howItWorksDiv'>
-        <HowItWorksDiv />
+      <div className='row'>
+        <div className='col-sm-4'></div>
+        <div className='col-sm-4 mt-2 readingPlusVideo'>
+          <ReadingPlusVideoDiv />
+        </div>
+        <div className='col-sm-4'></div>
       </div>
-      <div className='btnDiv'>
-        <RedirectButton
-          url={'https://login.readingplus.com/'}
-          title={'Login'}
-        />
-        <RedirectButton url={'/Contact'} title={'Contact'} />
+      <div className='row'>
+        <div className='col-sm-12 text-black text-center mt-1'>
+          <HowItWorksDiv />
+        </div>
+      </div>
+      <div className='row'>
+        <div className='col-sm-6 d-flex justify-content-center'>
+          <RedirectButton
+            url={'https://login.readingplus.com/'}
+            title={'Login'}
+          />
+        </div>
+        <div className='col-sm-6 d-flex justify-content-center'>
+          {' '}
+          <RedirectButton url={'/Contact'} title={'Contact'} />
+        </div>
       </div>
       <hr className='container testimonial' />
     </div>
