@@ -39,7 +39,6 @@ const ReadingPlus = () => {
           <RedirectButton url={'/Contact'} title={'Contact'} />
         </div>
       </div>
-      <hr className='container testimonial' />
     </div>
   );
 };

@@ -52,7 +52,6 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-      <hr className='container testimonial' />
     </div>
   );
 };

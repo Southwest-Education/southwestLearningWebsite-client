@@ -41,7 +41,6 @@ const RedboxVR = () => {
           </div>
         </div>
       </div>
-      <hr className='container testimonial' />
     </div>
   );
 };

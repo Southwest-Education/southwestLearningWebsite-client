@@ -27,8 +27,6 @@ const AboutUs = () => {
           <ParagraphFour />
         </div>
       </div>
-
-      <hr className='container testimonial' />
     </div>
   );
 };

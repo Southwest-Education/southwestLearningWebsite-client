@@ -19,7 +19,6 @@ const Main = () => {
           {/* REDBOXVR */}
           <DivThree />
         </div>
-        {/* <hr className='container testimonial' /> */}
       </div>
     </div>
   );

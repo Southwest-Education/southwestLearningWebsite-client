@@ -9,7 +9,6 @@ import SubHeader2 from './DivSubHeader/SubHeader2';
 // DIVS
 import DivOneText from './DivOneText/DivOneText';
 import DivOneText2 from './DivOneText2/DivOneText2';
-
 import { RedirectButton } from '../../../Buttons/Buttons';
 
 const SymphonyMath = () => {
@@ -19,7 +18,6 @@ const SymphonyMath = () => {
         <Header />
         <DivOneText />
         <div className='row'>
-
           {/* LEFT SIDE */}
           <div className='col-sm-6'>
             <SubHeader1 />
@@ -43,7 +41,7 @@ const SymphonyMath = () => {
               <ReactPlayer
                 url='https://youtu.be/24WOuguyUlc'
                 controls={true}
-                width= '100%'
+                width='100%'
                 height='35vh'
               />
             </div>
@@ -53,7 +51,6 @@ const SymphonyMath = () => {
           </div>
         </div>
       </div>
-      <hr className='container testimonial' />
     </div>
   );
 };

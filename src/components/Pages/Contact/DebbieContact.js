@@ -6,7 +6,6 @@ const DebbieContact = () => {
     <div>
       <h1 className='contactHeader'>Debbie's Contact Form</h1>
       <ContactFormFields url={'/api/form/debbie'} />
-      <hr className='container testimonial' />
     </div>
   );
 };
