@@ -4,7 +4,7 @@ import './style.css';
 const ReadingPlusParagraphOne = () => {
   return (
     <div>
-      <p className='ReadingPlusParagraph'>
+      <p className='testimonialParagraph'>
         <b className='testimonialPerson'>Prairie Lea ISD:</b> "Prairie has been
         on the Needs Improvement list for three years.  In 2018, after
         implementing Reading Plus for all second through twelfth grade

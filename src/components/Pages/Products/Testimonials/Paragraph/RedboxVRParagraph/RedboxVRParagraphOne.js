@@ -4,7 +4,7 @@ import './style.css';
 const RedboxVRParagraphOne = () => {
   return (
     <div>
-      <p className='ReadingPlusParagraph'>
+      <p className='testimonialParagraph'>
         <b className='testimonialPerson'>Tom Gilbertson: </b>
          “RedboxVR have provided us with the opportunity to fulfil our
         requirements. As a member of staff the equipment is easy to move and set

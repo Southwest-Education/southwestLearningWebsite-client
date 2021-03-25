@@ -4,7 +4,7 @@ import './style.css';
 const SymponyMathParagraphTwo = () => {
   return (
     <div>
-      <p className='ReadingPlusParagraph'>
+      <p className='testimonialParagraph'>
         <b className='testimonialPerson'>Massachusetts:</b> "We have been extremely
         pleased with how Symphony Math has allowed us to further engage our
         students in their own mathematical learning. In addition, the program
