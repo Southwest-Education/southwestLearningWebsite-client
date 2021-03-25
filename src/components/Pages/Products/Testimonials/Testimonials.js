@@ -28,18 +28,18 @@ const Testimonials = () => {
   return (
     <div className='container' >
       <div className='row'>
-          <div className="col-12">
-              <h1 className='testimonialsTitle'>Testimonials</h1>
+          <div className="col-sm0-12">
+              <h1 className='testimonialsTitle text-center'>Testimonials</h1>
           </div>
           {/* READING PLUS */}
-          <div className="col-12">
+          <div className="col-sm-12">
               <h3 className='testimonialsSubTitle'>Reading Plus</h3>
           </div>
-        <div className='col-6'>
+        <div className='col-sm-6'>
           <ReadingPlusTestimonialOne />
           <ReadingPlusParagraphOne />
         </div>
-        <div className='col-6'>
+        <div className='col-sm-6'>
           <ReadingPlusTestimonialTwo />
           <ReadingPlusParagraphTwo />
         </div>
@@ -48,14 +48,14 @@ const Testimonials = () => {
 
       <div className='row'>
           {/* SYMPHONY MATH */}
-          <div className="col-12">
+          <div className="col-sm-12">
               <h3 className='testimonialsSubTitle'>Symphony Math</h3>
           </div>
         <div className='col-6'>
           <SymphonyMathTestimonialOne/>
           <SymponyMathParagraphOne />
         </div>
-        <div className='col-6'>
+        <div className='col-sm-6'>
           <SymphonyMathTestimonialTwo />
           <SymponyMathParagraphTwo />
         </div>
@@ -65,14 +65,14 @@ const Testimonials = () => {
 
       <div className='row'>
           {/* RedboxVR */}
-          <div className="col-12">
+          <div className="col-sm-12">
               <h3 className='testimonialsSubTitle'>Redbox VR</h3>
           </div>
-        <div className='col-6'>
+        <div className='col-sm-6'>
           <RedboxVRTestimonialOne/>
           <RedboxVRParagraphOne />
         </div>
-        <div className='col-6'>
+        <div className='col-sm-6'>
           <RedboxVRTestimonialTwo />
           <RedboxVRParagraphTwo />
         </div>

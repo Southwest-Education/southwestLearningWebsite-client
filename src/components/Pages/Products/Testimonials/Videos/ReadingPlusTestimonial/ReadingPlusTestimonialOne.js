@@ -7,8 +7,8 @@ const ReadingPlusTestimonialOne = () => {
     <div>
       <ReactPlayer
         controls={true}
-        width='34.375rem'
-        height='21.875rem'
+        width='100%'
+        height='50vh'
         url='https://youtu.be/abpYxkwjP9w'
       />
     </div>
