@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import ReactPlayer from 'react-player';
 
 const ReadingPlusTestimonialOne = () => {

@@ -1,29 +1,29 @@
 .testimonialsTitle {
-    color: #ededed !important;
-    text-decoration: underline;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+  color: #ededed !important;
+  text-decoration: underline;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
 }
 
 .testimonialsSubTitle {
-    color: #ededed !important;
-    text-decoration: underline;
-    margin-top: 0.5%;
-    margin-bottom: 2%;
+  color: #ededed !important;
+  text-decoration: underline;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
 }
 
-.testimonialParagraph{
-    text-align: center;
-    color: #232323;
-    margin: 2% auto;
-    width: 75%;
+.testimonialParagraph {
+  text-align: center;
+  color: #232323;
+  margin: 2% auto;
+  width: 75%;
 }
 
 .testimonialPerson {
-    text-decoration: underline;
-    color: #ededed;
-    margin: 2% auto;
-    width: 75%;
-    font-weight: bolder;
-    font-size: 1.25rem;
+  text-decoration: underline;
+  color: #ededed;
+  margin: 2% auto;
+  width: 75%;
+  font-weight: bolder;
+  font-size: 1.25rem;
 }
