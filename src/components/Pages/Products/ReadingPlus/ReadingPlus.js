@@ -16,11 +16,9 @@ const ReadingPlus = () => {
         </div>
       </div>
       <div className='row'>
-        <div className='col-sm-4'></div>
-        <div className='col-sm-4 mt-2 readingPlusVideo'>
+        <div className='container mt-2 readingPlusVideo'>
           <ReadingPlusVideoDiv />
         </div>
-        <div className='col-sm-4'></div>
       </div>
       <div className='row'>
         <div className='col-sm-12 text-black text-center mt-1'>
