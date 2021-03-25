@@ -34,7 +34,6 @@ const Testimonials = () => {
           <ReadingPlusTestimonialTwo />
           <ReadingPlusParagraphTwo />
         </div>
-        <hr className='container testimonial' />
       </div>
 
       <div className='row'>
@@ -51,7 +50,6 @@ const Testimonials = () => {
           <SymponyMathParagraphTwo />
         </div>
       </div>
-      <hr className='container testimonial' />
 
       <div className='row'>
           {/* RedboxVR */}
@@ -67,7 +65,6 @@ const Testimonials = () => {
           <RedboxVRParagraphTwo />
         </div>
       </div>
-      <hr className='container testimonial' />
     </div>
   );
 };
