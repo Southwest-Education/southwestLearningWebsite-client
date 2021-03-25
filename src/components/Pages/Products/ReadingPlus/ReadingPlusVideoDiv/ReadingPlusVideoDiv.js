@@ -7,7 +7,7 @@ const ReadingPlusVideoDiv = () => {
       <ReactPlayer
         url='https://youtu.be/44PiVDPtW7A'
         controls={true}
-        width='67%'
+        width='100%'
         height='50vh'
       />
     </div>

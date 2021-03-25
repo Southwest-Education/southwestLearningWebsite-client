@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-
 // DIVS
 import ReadingPlusVideoDiv from './ReadingPlusVideoDiv/ReadingPlusVideoDiv';
 import HowItWorksDiv from './HowItWorksDiv/HowItWorksDiv';
@@ -11,12 +10,20 @@ import { RedirectButton } from '../../../Buttons/Buttons';
 const ReadingPlus = () => {
   return (
     <div>
-      <ReadingPlusImage />
-      <div className='readingPlusVideo'>
-        <ReadingPlusVideoDiv />
+      <div className='row'>
+        <div className='col-sm-12'>
+          <ReadingPlusImage />
+        </div>
+      </div>
+      <div className='row'>
+        <div className="col-sm-4"></div>
+        <div className='col-sm-4 readingPlusVideo'>
+          <ReadingPlusVideoDiv />
+        </div>
+        <div className="col-sm-4"></div>
       </div>
 
-      <div className='howItWorksDiv'>
+      <div className=''>
         <HowItWorksDiv />
       </div>
       <div className='btnDiv'>
