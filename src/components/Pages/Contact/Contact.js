@@ -11,15 +11,12 @@ const Contact = () => {
     width: '75%',
     margin: '0 auto',
   };
-  const centerLine = {
-    borderRight: '0.1875rem solid',
-    borderRightColor: '#f97c05',
-  };
+
   return (
     <div>
       <div className='row'>
         {/* LEFT SIDE */}
-        <div style={centerLine} className='col-xs-6 col-sm-6'>
+        <div className='col-xs-6 col-sm-6'>
           <h1 className='contactHeader'>Contact For More Information</h1>
           <ContactFormFields url={'/api/form'} />
         </div>
