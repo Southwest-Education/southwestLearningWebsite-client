@@ -43,8 +43,8 @@ const SymphonyMath = () => {
               <ReactPlayer
                 url='https://youtu.be/24WOuguyUlc'
                 controls={true}
-                width='100%'
-                height='50vh'
+                width= '100%'
+                height='35vh'
               />
             </div>
             <div className='col-sm-12 d-flex justify-content-center symphonyMathContactBtn'>
