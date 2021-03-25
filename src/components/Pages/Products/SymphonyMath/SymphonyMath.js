@@ -22,21 +22,25 @@ const SymphonyMath = () => {
       <div>
         <Header />
         <DivOneText />
-        <div className='row divOneS'>
+        <div className='row'>
+          {/* LEFT SIDE */}
           <div style={centerLine} className='col-sm-6'>
             <SubHeader1 />
             <DivOneText2 />
             {/* BUTTONS */}
-            <div className='btnDiv'>
-              <RedirectButton
-                url={
-                  'https://content.symphonylearning.com/assets/student/index.html?v=latest'
-                }
-                title={'Login'}
-              />
-              <RedirectButton url={'/Contact'} title={'Contact'} />
+            <div className='row'>
+              <div className='col-sm-12 d-flex justify-content-center'>
+                <RedirectButton
+                  url={
+                    'https://content.symphonylearning.com/assets/student/index.html?v=latest'
+                  }
+                  title={'Login'}
+                />
+              </div>
             </div>
           </div>
+
+          {/* RIGHT SIDE */}
           <div className='col-sm-6'>
             <SubHeader2 />
             <div className='symphonyMathVideo'>
@@ -46,6 +50,9 @@ const SymphonyMath = () => {
                 width='67%'
                 height='35vh'
               />
+            </div>
+            <div className='col-sm-12 d-flex justify-content-center'>
+              <RedirectButton url={'/Contact'} title={'Contact'} />
             </div>
           </div>
         </div>
