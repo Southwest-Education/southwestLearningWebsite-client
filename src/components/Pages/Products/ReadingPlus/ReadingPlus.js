@@ -17,13 +17,13 @@ const ReadingPlus = () => {
       </div>
       <div className='row'>
         <div className='col-sm-4'></div>
-        <div className='col-sm-4 readingPlusVideo'>
+        <div className='col-sm-4 mt-2 readingPlusVideo'>
           <ReadingPlusVideoDiv />
         </div>
         <div className='col-sm-4'></div>
       </div>
       <div className='row'>
-        <div className='col-sm-12'>
+        <div className='col-sm-12 text-black text-center mt-1'>
           <HowItWorksDiv />
         </div>
       </div>
