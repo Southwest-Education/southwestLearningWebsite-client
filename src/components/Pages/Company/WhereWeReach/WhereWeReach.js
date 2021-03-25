@@ -86,7 +86,6 @@ const WhereWeReach = () => {
           </Popup>
         ) : null}
       </ReactMapGL>
-      <hr className='whereWeReach' />
     </div>
   );
 };
