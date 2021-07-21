@@ -6,7 +6,7 @@ const ParagraphThree = () => {
       <p className='aboutUsParagraph'>
         So Becky started Southwest Education Inc to help struggling students,
         reduce the dropout rate, and make a positive impact on education.
-        Southwest Education inc has worked with hundreds of schools and school
+        Southwest Education Inc has worked with hundreds of schools and school
         districts, and thousands of students in Texas, Utah and across the
         country.
       </p>
