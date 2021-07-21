@@ -10,7 +10,7 @@ const SentMessage = () => {
         <Card.Body>
           <Card.Title>Message Successfully sent!</Card.Title>
           <Card.Text>
-            Thank you, We apprieciate you and one of your sale respresentatives
+            Thank you! We appreciate you, our sale representatives
             will be in contact with you very shortly!
           </Card.Text>
           <Link to="/">
