@@ -4,7 +4,7 @@ const DivOneText = () => {
   return (
     <div>
       <p className='divOneText'>
-        Our kits allow schools to provide filed trips without leaving the
+        Our kits allow schools to provide field trips without leaving the
         classrooms.
         <br />
         Correlated to national math standards and state standards, Including
